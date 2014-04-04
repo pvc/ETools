@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+<extension point="org.eclipse.ui.startup"/>
+<extension
+         point="org.eclipse.ui.commands">
+         <category
+            name="PBE"
+            description="Patterns Based Engineering"
+            id="org.pv.category.pbe">
+     	 </category>
+         <command
+            name="pbeEdit"
+            description="Edit associated Java Class"
+            categoryId="org.pv.category.pbe"
+            id="org.pv.edit">
+         </command>   
+         <command
+            name="ApplyPattern" 
+            description="Appy Associated Pattern"
+            categoryId="org.pv.category.pbe"
+            id="org.pv.applyPattern">
+         </command>   
+         <keyBinding
+            commandId="org.pv.edit"
+            contextId="org.eclipse.ui.contexts.window"
+            keySequence="Ctrl+O"
+            keyConfigurationId="org.eclipse.ui.defaultAcceleratorConfiguration">
+         </keyBinding>  
+         <keyBinding
+            commandId="org.pv.applyPattern"
+            contextId="org.eclipse.ui.contexts.window"
+            keySequence="Ctrl+Alt+P"
+            keyConfigurationId="org.eclipse.ui.defaultAcceleratorConfiguration">
+         </keyBinding>  
+         <command
+            name="GenProfile"
+            description="Generate Profile from Diagram"
+            categoryId="org.eclipse.ui.category.edit"
+            id="org.pv.genprofile">
+         </command>   
+         
+          <command
+            name="Run Runnable" 
+            description="Run Selected Class with run method"
+            categoryId="org.pv.category.pbe"
+            id="org.pv.runner">
+         </command>   
+         <keyBinding
+            commandId="org.pv.runner"
+            contextId="org.eclipse.ui.contexts.window"
+            keySequence="Ctrl+Alt+X"
+            keyConfigurationId="org.eclipse.ui.defaultAcceleratorConfiguration">
+         </keyBinding>   
+         <command
+            name="MenuAdd" 
+            description="Add to Test Menu"
+            categoryId="org.pv.category.pbe"
+            id="org.pv.menuadd">
+         </command>   
+         <keyBinding
+            commandId="org.pv.menuadd"
+            contextId="org.eclipse.ui.contexts.window"
+            keySequence="Ctrl+Alt+M"
+            keyConfigurationId="org.eclipse.ui.defaultAcceleratorConfiguration">
+         </keyBinding> 
+         <command
+            name="Repeat" 
+            description="Repeat Last Action"
+            categoryId="org.pv.category.pbe"
+            id="org.pv.repeat">
+         </command>    
+         <keyBinding
+            commandId="org.pv.repeat"
+            contextId="org.eclipse.ui.contexts.window"
+            keySequence="Ctrl+Alt+="
+            keyConfigurationId="org.eclipse.ui.defaultAcceleratorConfiguration">
+         </keyBinding>    
+   </extension>
+   
+   
+   <extension
+         point="org.eclipse.ui.actionSets">
+          <actionSet
+            label="PBECore Keys Action Set" 
+            visible="true"
+            id="org.pv.PBEToolkitKeys.actionSet">
+            <action
+               definitionId="org.pv.applyPattern"
+               label="&amp;Apply Associated Pattern"
+               tooltip="Run associated JET2 Pattern against this Appdef or Appdef Diagram "
+               class="org.pv.core.actions.RunJETActionDelegate"
+               icon="icons/sample.gif"
+               id="org.pv.core.keys.RunJET">
+    	     </action> 
+           </actionSet> 
+      <actionSet
+            label="PBECore Action Set" 
+            visible="false"
+            id="org.pv.core.actionSet">
+         <menu
+               label="PBECore Tools"
+               id="pbeMenu" 
+               >
+            <separator name="Patterns"></separator>   
+            <separator name="UML"></separator>   
+            <separator name="MM"></separator>   
+            <separator name="RSA"></separator>
+            <separator name="SelfService"></separator>
+            <separator name="ProcessIntegration"></separator>
+            <separator name="ESB"></separator>
+            <separator name="WPS"></separator>
+            <separator name="Menu"></separator>
+            <separator name="RunMenu"></separator>
+         </menu>
+        <menu
+               label="Other"
+               id="Misc"
+               path="pbeMenu/ESB">
+            <separator
+                  name="SubGroup1">
+            </separator>	
+         </menu>  
+    	<action
+               label="Add new Action to Selected Plugin"
+               tooltip=""
+               icon="icons/sample.gif"
+               class="org.pv.core.actions.AddPluginAction"
+               menubarPath="pbeMenu/Patterns" 
+               id="org.pv.toolkit.actionImpl.AddPluginAction">
+         </action>       
+    
+            
+      	 <action
+               label="&amp;Create Base Pattern From Exemplar Projects"
+               tooltip="Create a Pattern which will generate this project"
+               class="org.pv.core.actions.CreatePatternActionDelegate"
+               icon="icons/sample.gif"
+               menubarPath="pbeMenu/Patterns" 
+               id="org.pv.core.actions.CreatePattern">
+         </action>
+         <action
+               label="&amp;Apply Associated Pattern"
+               tooltip="Run associated JET2 Pattern against this Appdef or Appdef Diagram "
+               class="org.pv.core.actions.RunJETActionDelegate"
+               icon="icons/sample.gif"
+               menubarPath="pbeMenu/Patterns" 
+               id="org.pv.core.actions.RunJET">
+         </action> 
+         <!--
+         <action
+               label="&amp;Generate WAS Admin script"
+               tooltip="Run associated JET2 Pattern against this Appdef or Appdef Diagram "
+               class="org.pv.core.actions.GenWasScriptActionDelegate"
+               icon="icons/sample.gif"
+               menubarPath="pbeMenu/Patterns" 
+               id="org.pv.core.actions.genWasScript">
+         </action> 
+        
+         <action
+               label="&amp;Metamodel to XSD"
+               tooltip="Generate an XSD from a Metamodel Diagram"
+               class="org.pv.core.actions.GenXSDActionDelegate"
+               icon="icons/sample.gif"
+               menubarPath="pbeMenu/MM" 
+               id="org.pv.core.actions.GenXSD">
+         </action>
+         <action
+               label="&amp;Apply Metamodel"
+               tooltip="Refresh the Instance Model and Profile from changes to the Metamodel"
+               class="org.pv.core.actions.GenInstanceModelActionDelegate"
+               icon="icons/sample.gif"
+               menubarPath="pbeMenu/MM"
+               id="org.pv.core.actions.GenInstanceModel">
+         </action>
+         <action
+               label="New Empty &amp;Metamodel"
+               tooltip="Generate a Metamodel in the selected Project or Folder"
+               class="org.pv.core.actions.GenMetamodelActionDelegate"
+               icon="icons/sample.gif"
+               menubarPath="pbeMenu/MM"
+               id="org.pv.core.actions.GenMetamodel">
+         </action>
+         
+         <action
+               label="&amp;Appdef to Model"
+               tooltip="Generate a Metamodel and Instance Model from a DPTK appdef"
+               class="org.pv.core.actions.ImportAppdefActionDelegate"
+               icon="icons/sample.gif"
+               menubarPath="pbeMenu/UML" 
+               id="org.pv.core.actions.ImportAppdef">
+         </action>
+         <action
+               label="Model to &amp;Appdef"
+               tooltip="Generate a DPTK appdef from the selected Diagram"
+               class="org.pv.core.actions.GenAppdefActionDelegate"
+               icon="icons/sample.gif"
+               menubarPath="pbeMenu/UML"
+               id="org.pv.core.actions.GenAppdef">
+         </action>
+         <action
+               definitionId="org.pv.edit"
+               label="&amp;Edit Element"
+               tooltip="Edit associated Java class"
+               class="org.pv.core.actions.pbeEditActionDelegate"
+               icon="icons/sample.gif"
+               menubarPath="pbeMenu/RSA"
+               id="org.pv.core.actions.pbeEditAction">
+         </action> 
+         -->       
+         <action
+               label="&amp;Add Java Runnable to this Menu"
+               definitionId="org.pv.menuadd"
+               tooltip=""
+               class="org.pv.core.actions.GenericActionDelegate"
+               menubarPath="pbeMenu/Menu" 
+               id="org.pv.core.MenuAdder">
+         </action>     
+         <action
+               label="&amp;Repeat Last"
+               definitionId="org.pv.repeat"
+               tooltip=""
+               class="org.pv.core.actions.GenericActionDelegate"
+               menubarPath="pbeMenu/Menu" 
+               id="org.pv.core.Repeat">
+         </action>     
+         <action
+               label="&amp;Run Selected"
+               definitionId="org.pv.runner"
+               tooltip="Run Selected Java Runnable"
+               class="org.pv.core.actions.GenericActionDelegate"
+               menubarPath="pbeMenu/Menu" 
+               id="org.pv.core.PVLoader">
+         </action>   
+ 	
+ 		<action
+               label="Restart Eclipse"
+               tooltip=""
+               class="org.pv.core.actions.Restart"
+               menubarPath="pbeMenu/Menu" 
+               id="org.pv.core.actions.Restart">
+         </action>   
+ 		
+      </actionSet>
+   </extension>
+   
+   <!--
+   <extension point="org.eclipse.gmf.runtime.emf.core.Pathmaps">
+      <pathmap
+            path="/profiles"
+            name="PBEProfiles"/>
+   </extension>
+   <extension name="PBE Profiles"
+         point="com.ibm.xtools.uml.msl.UMLProfiles">
+   <UMLProfile name="PBE Metamodelling Profile"
+            id="PBEMMProfile"
+            path="pathmap://PBEProfiles/PBEMMProfile.epx"
+            required="false"
+            visible="true">
+   </UMLProfile>
+   <UMLProfile name="PBE Profile"
+            id="PBEProfile"
+            path="pathmap://PBEProfiles/PBEProfile.epx"
+            required="false"
+            visible="true">
+   </UMLProfile>
+   <UMLProfile name="PBE XSD Profile"
+            id="XSDProfile"
+            path="pathmap://PBEProfiles/XSD.epx"
+            required="false"
+            visible="true">
+   </UMLProfile>
+	</extension>
+ -->
+ 
+<!--  
+   <extension point="com.ibm.dptk.patternPlugin">
+         <pattern type="appdef" patzip="patterns/CreatePattern.patzip"/>
+   </extension>
+   <extension point="com.ibm.dptk.patternPlugin">
+         <pattern type="appdef" patzip="patterns/Plugin.patzip"/>
+   </extension>
+-->
+
+  
+   <extension point="org.eclipse.help.toc">
+      <toc file="help/pbetoc.xml" primary="true" />
+   </extension>
+   
+   <extension point="org.eclipse.ui.editors">
+   <editor default="true" extensions="lnk" id="org.pv.SystemEditor" launcher="org.pv.patterns.SystemEditorLauncher" name="PBE System Editor"/>
+   <editor
+       id="org.pv.DialogEditor"
+       name="PBE Model Editor"
+       extensions="appdef"
+       launcher="org.pv.patterns.EditorLauncher"
+       default="true"
+   />
+ </extension>   
+   
+</plugin>

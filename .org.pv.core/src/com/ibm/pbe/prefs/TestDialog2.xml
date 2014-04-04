@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties continue="true" label="Please complete the fields below" title="Pattern Input Dialog">
+  <property label="Name of new Mediation" modelAttr="name" modelPath="//" name="name" value="Testing"/>
+  <property label="Interface to be proxied" modelAttr="wsdl" modelPath="//" name="wsdl" value="Testing"/>
+  <property label="Transport" modelAttr="transport" modelPath="//" name="transport" value="Testing"/>
+  <property label="Logging Enabled" modelAttr="loggingEnabled" modelPath="//" name="loggingEnabled" value="true"/>
+  <property label="Logger JNDI" modelAttr="logjndi" modelPath="//" name="logjndi" value="MD6"/>
+</properties>

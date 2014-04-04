@@ -1,0 +1,9 @@
+<changeModel>
+	<filter path="PVTools">
+		<filter path="*.txt" regex="true"/>
+		<filter path="FileTestTarget.txt">
+		<change from="xyz" to="ibm" />
+		</filter>
+	</filter>
+	<filter path="xyz/lll/*/*.txt"/>
+</changeModel>

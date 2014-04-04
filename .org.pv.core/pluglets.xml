@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pluglets>
+<!--
+   <require>
+      <import plugin="com.ibm.xtools.pluglets"/>
+	<import plugin="org.eclipse.core.resources"/>
+	<import plugin="org.eclipse.core.runtime"/>
+	<import plugin="org.eclipse.ui.console"/>
+	<import plugin="org.eclipse.ui.ide"/>
+	<import plugin="org.eclipse.ui"/>
+	<import plugin="org.eclipse.ui.texteditor"/>
+	<import plugin="org.eclipse.ui.editors"/>
+	<import plugin="org.eclipse.ui.workbench.texteditor"/>
+	<import plugin="org.eclipse.jface.text"/>
+	<import plugin="org.eclipse.ui.part"/>
+	<import plugin="org.eclipse.jdt.ui"/>
+	<import plugin="org.eclipse.uml2"/>
+	
+<import plugin="org.eclipse.jdt.core"/>
+<import plugin="com.ibm.dptk"/>
+<import plugin="org.eclipse.emf.common"/>
+<import plugin="com.ibm.xtools.modeler"/>
+   </require>
+-->
+</pluglets>
+
+<!-- 
+<import plugin="org.eclipse.core.runtime.compatibility" export="true"/>
+      <import plugin="org.eclipse.gef" export="true"/>
+      <import plugin="org.eclipse.ui.views" export="true"/>
+      <import plugin="org.eclipse.swt" export="true"/>
+      <import plugin="org.eclipse.emf.ecore" export="true"/>
+      <import plugin="org.eclipse.ltk.core.refactoring"/>
+      <import plugin="org.eclipse.ltk.ui.refactoring"/>
+   <import plugin="org.eclipse.help.base"/>
+-->

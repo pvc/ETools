@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata name="Test" pattern="com.ibm.pbe.patterns.Test" targetProject="RSAFunctions">
+  <root name="root_1">
+    <E1 att1="att1val" name="E1_2">
+      <E12 att12="att12val1" name="E12_3"/>
+      <E12 att12="att12val2" name="E12_4"/>
+    </E1>
+    <E3 att3="att3val" name="E3_5"/>
+  </root>
+  <root name="root_6">
+    <E1 att1="att1val" name="E1_7">
+      <E12 name="E12_8"/>
+      <E12 att12="att12val2" name="E12_9"/>
+    </E1>
+    <E3 att3="xxxxx" name="E3_10"/>
+  </root>
+  <root name="root_11">
+    <E1 att1="att1val" name="E1_12">
+      <E12 name="E12_13"/>
+      <E12 att12="att12val2" name="E12_14"/>
+    </E1>
+    <E3 att3="xxxxx" name="E3_15"/>
+  </root>
+  <root name="root_16">
+    <E1 att1="att1val" name="E1_17">
+      <E12 name="E12_18"/>
+      <E12 att12="att12val2" name="E12_19"/>
+    </E1>
+    <E3 att3="xxxxx" name="E3_20"/>
+  </root>
+</metadata>

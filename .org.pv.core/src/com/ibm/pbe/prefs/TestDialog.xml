@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Licensed Materials - Property of IBM -->
+<!-- (C) Copyright IBM Corp. 2007 All Rights Reserved. -->
+<!-- US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<properties continue="false" label="NB Paths should be absolute (ie from the root of the Filesystem)" pattern="com.ibm.sal.rapidsat.patterns.applicationWrapper" title="Rapid Application SDA Definition">
+
+<property name="Basic Information" type="label" value=""/>
+<property default="windows;linux_intel" help="The target platform that the SDA will be installing its application upon.\n\nN.B. Only windows is supported at present!" label="Target Platform*" name="platform" type="combo" value="hhihjijoijoijij"/>
+<property default="windows;linux_intel" help="The target platform that the SDA will be installing its application upon.\n\nN.B. Only windows is supported at present!" label="Target Platform*" name="platformRO" type="dropDown" value="linux_intel"/>
+
+</properties>

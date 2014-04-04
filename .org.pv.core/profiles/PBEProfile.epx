@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.profile" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<uml:Profile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_tRU6MAalEdyFBddya9hqEg" name="PBEProfile" metamodelReference="_tT3Q0AalEdyFBddya9hqEg">
+  <eAnnotations xmi:id="_tRU6MQalEdyFBddya9hqEg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <details xmi:id="_tRU6MgalEdyFBddya9hqEg" key="DSL"/>
+    <contents xmi:type="ecore:EPackage" xmi:id="_mmiX0bHREd23pt4WH0cPnQ" name="PBEProfile" nsURI="http:///schemas/PBEProfile/_mmiX0LHREd23pt4WH0cPnQ/2" nsPrefix="PBEProfile">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_mmiX0rHREd23pt4WH0cPnQ" name="metadata">
+        <eAnnotations xmi:id="_mmiX07HREd23pt4WH0cPnQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tUBB0AalEdyFBddya9hqEg"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX1LHREd23pt4WH0cPnQ" name="applyTo" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX1bHREd23pt4WH0cPnQ" name="logFile" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX1rHREd23pt4WH0cPnQ" name="pattern" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX17HREd23pt4WH0cPnQ" name="targetModel" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX2LHREd23pt4WH0cPnQ" name="targetName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX2bHREd23pt4WH0cPnQ" name="targetProfile" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX2rHREd23pt4WH0cPnQ" name="targetProject" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX27HREd23pt4WH0cPnQ" name="targetType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX3LHREd23pt4WH0cPnQ" name="tempApplyTo" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX3bHREd23pt4WH0cPnQ" name="tempLogFile" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX3rHREd23pt4WH0cPnQ" name="tempName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX37HREd23pt4WH0cPnQ" name="tempPattern" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX4LHREd23pt4WH0cPnQ" name="tempTargetModel" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX4bHREd23pt4WH0cPnQ" name="tempTargetName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX4rHREd23pt4WH0cPnQ" name="tempTargetProfile" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX47HREd23pt4WH0cPnQ" name="tempTargetProject" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX5LHREd23pt4WH0cPnQ" name="tempTargetType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mmiX5bHREd23pt4WH0cPnQ" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX5rHREd23pt4WH0cPnQ" name="diagramRoot" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mmiX57HREd23pt4WH0cPnQ" name="dsl" ordered="false" lowerBound="1" defaultValueLiteral="MissingDSL">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_HqI1EbGlEd2VJMPvf91CRA" name="PBEProfile" nsURI="http:///schemas/PBEProfile/_HqI1ELGlEd2VJMPvf91CRA/1" nsPrefix="PBEProfile">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HqI1ErGlEd2VJMPvf91CRA" name="metadata">
+        <eAnnotations xmi:id="_HqI1E7GlEd2VJMPvf91CRA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tUBB0AalEdyFBddya9hqEg"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1FLGlEd2VJMPvf91CRA" name="applyTo" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1FbGlEd2VJMPvf91CRA" name="logFile" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1FrGlEd2VJMPvf91CRA" name="pattern" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1F7GlEd2VJMPvf91CRA" name="targetModel" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1GLGlEd2VJMPvf91CRA" name="targetName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1GbGlEd2VJMPvf91CRA" name="targetProfile" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1GrGlEd2VJMPvf91CRA" name="targetProject" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1G7GlEd2VJMPvf91CRA" name="targetType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1HLGlEd2VJMPvf91CRA" name="tempApplyTo" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1HbGlEd2VJMPvf91CRA" name="tempLogFile" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1HrGlEd2VJMPvf91CRA" name="tempName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1H7GlEd2VJMPvf91CRA" name="tempPattern" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1ILGlEd2VJMPvf91CRA" name="tempTargetModel" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1IbGlEd2VJMPvf91CRA" name="tempTargetName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1IrGlEd2VJMPvf91CRA" name="tempTargetProfile" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1I7GlEd2VJMPvf91CRA" name="tempTargetProject" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1JLGlEd2VJMPvf91CRA" name="tempTargetType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HqI1JbGlEd2VJMPvf91CRA" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HqI1JrGlEd2VJMPvf91CRA" name="diagramRoot" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_q9K0wbFsEd2EW-lSLB01MQ" name="PBEProfile" nsURI="http:///schemas/PBEProfile/_q9K0wLFsEd2EW-lSLB01MQ/0" nsPrefix="PBEProfile">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_q9K0wrFsEd2EW-lSLB01MQ" name="patternApp">
+        <eAnnotations xmi:id="_q9K0w7FsEd2EW-lSLB01MQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tUBB0AalEdyFBddya9hqEg"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K0xLFsEd2EW-lSLB01MQ" name="applyTo" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K0xbFsEd2EW-lSLB01MQ" name="logFile" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K0xrFsEd2EW-lSLB01MQ" name="pattern" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K0x7FsEd2EW-lSLB01MQ" name="targetModel" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K0yLFsEd2EW-lSLB01MQ" name="targetName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K0ybFsEd2EW-lSLB01MQ" name="targetProfile" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K0yrFsEd2EW-lSLB01MQ" name="targetProject" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K0y7FsEd2EW-lSLB01MQ" name="targetType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K0zLFsEd2EW-lSLB01MQ" name="tempApplyTo" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K0zbFsEd2EW-lSLB01MQ" name="tempLogFile" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K0zrFsEd2EW-lSLB01MQ" name="tempName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K0z7FsEd2EW-lSLB01MQ" name="tempPattern" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K00LFsEd2EW-lSLB01MQ" name="tempTargetModel" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K00bFsEd2EW-lSLB01MQ" name="tempTargetName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K00rFsEd2EW-lSLB01MQ" name="tempTargetProfile" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K007FsEd2EW-lSLB01MQ" name="tempTargetProject" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K01LFsEd2EW-lSLB01MQ" name="tempTargetType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_q9K01bFsEd2EW-lSLB01MQ" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_q9K01rFsEd2EW-lSLB01MQ" name="diagramRoot" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <eAnnotations xmi:id="_tUKLwwalEdyFBddya9hqEg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_m6REQQfTEdyw0a5becSFOA" name="PBEProfile_2" nsURI="http:///_m6REQAfTEdyw0a5becSFOA.profile.uml2" nsPrefix="PBEProfile_2">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_m6REQgfTEdyw0a5becSFOA" name="PBEProfile__patternApp">
+        <eAnnotations xmi:id="_m6REQwfTEdyw0a5becSFOA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tUBB0AalEdyFBddya9hqEg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lmS2sLFsEd2EW-lSLB01MQ" name="base_Class">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6RERAfTEdyw0a5becSFOA" name="applyTo" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6RERQfTEdyw0a5becSFOA" name="logFile" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6RERgfTEdyw0a5becSFOA" name="pattern" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6RERwfTEdyw0a5becSFOA" name="targetModel" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6RESAfTEdyw0a5becSFOA" name="targetName" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6RESQfTEdyw0a5becSFOA" name="targetProfile" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6RESgfTEdyw0a5becSFOA" name="targetProject" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6RESwfTEdyw0a5becSFOA" name="targetType" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6RETAfTEdyw0a5becSFOA" name="tempApplyTo" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6RETQfTEdyw0a5becSFOA" name="tempLogFile" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6RETgfTEdyw0a5becSFOA" name="tempName" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6RETwfTEdyw0a5becSFOA" name="tempPattern" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6REUAfTEdyw0a5becSFOA" name="tempTargetModel" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6REUQfTEdyw0a5becSFOA" name="tempTargetName" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6REUgfTEdyw0a5becSFOA" name="tempTargetProfile" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6REUwfTEdyw0a5becSFOA" name="tempTargetProject" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6REVAfTEdyw0a5becSFOA" name="tempTargetType" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m6REVQfTEdyw0a5becSFOA" name="diagramRoot" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_sSg10QbXEdyFBddya9hqEg" name="PBEProfile_1" nsURI="http:///_sSg10AbXEdyFBddya9hqEg.profile.uml2" nsPrefix="PBEProfile_1">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_sSg10gbXEdyFBddya9hqEg" name="PBEProfile__patternApp">
+        <eAnnotations xmi:id="_sSg10wbXEdyFBddya9hqEg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tUBB0AalEdyFBddya9hqEg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lmS2sbFsEd2EW-lSLB01MQ" name="base_Class">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg11AbXEdyFBddya9hqEg" name="applyTo" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg11QbXEdyFBddya9hqEg" name="logFile" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg11gbXEdyFBddya9hqEg" name="pattern" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg11wbXEdyFBddya9hqEg" name="targetModel" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg12AbXEdyFBddya9hqEg" name="targetName" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg12QbXEdyFBddya9hqEg" name="targetProfile" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg12gbXEdyFBddya9hqEg" name="targetProject" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg12wbXEdyFBddya9hqEg" name="targetType" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg13AbXEdyFBddya9hqEg" name="tempApplyTo" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg13QbXEdyFBddya9hqEg" name="tempLogFile" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg13gbXEdyFBddya9hqEg" name="tempName" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg13wbXEdyFBddya9hqEg" name="tempPattern" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg14AbXEdyFBddya9hqEg" name="tempTargetModel" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg14QbXEdyFBddya9hqEg" name="tempTargetName" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg14gbXEdyFBddya9hqEg" name="tempTargetProfile" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg14wbXEdyFBddya9hqEg" name="tempTargetProject" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sSg15AbXEdyFBddya9hqEg" name="tempTargetType" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_tUKLxQalEdyFBddya9hqEg" name="PBEProfile_0" nsURI="http:///_tUKLxAalEdyFBddya9hqEg.profile.uml2" nsPrefix="PBEProfile_0">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tUKLxgalEdyFBddya9hqEg" name="PBEProfile__ggg">
+        <eAnnotations xmi:id="_tUKLxwalEdyFBddya9hqEg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKLyAalEdyFBddya9hqEg" name="package" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tUKLyQalEdyFBddya9hqEg" name="PBEProfile__asyncRetrieval">
+        <eAnnotations xmi:id="_tUKLygalEdyFBddya9hqEg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tUKLywalEdyFBddya9hqEg" name="PBEProfile__patternApp">
+        <eAnnotations xmi:id="_tUKLzAalEdyFBddya9hqEg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tUBB0AalEdyFBddya9hqEg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lmS2srFsEd2EW-lSLB01MQ" name="base_Class">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKLzQalEdyFBddya9hqEg" name="applyTo" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKLzgalEdyFBddya9hqEg" name="logFile" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKLzwalEdyFBddya9hqEg" name="pattern" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL0AalEdyFBddya9hqEg" name="targetModel" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL0QalEdyFBddya9hqEg" name="targetName" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL0galEdyFBddya9hqEg" name="targetProfile" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL0walEdyFBddya9hqEg" name="targetProject" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL1AalEdyFBddya9hqEg" name="targetType" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL1QalEdyFBddya9hqEg" name="tempApplyTo" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL1galEdyFBddya9hqEg" name="tempLogFile" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL1walEdyFBddya9hqEg" name="tempName" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL2AalEdyFBddya9hqEg" name="tempPattern" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL2QalEdyFBddya9hqEg" name="tempTargetModel" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL2galEdyFBddya9hqEg" name="tempTargetName" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL2walEdyFBddya9hqEg" name="tempTargetProfile" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL3AalEdyFBddya9hqEg" name="tempTargetProject" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tUKL3QalEdyFBddya9hqEg" name="tempTargetType" lowerBound="1" defaultValueLiteral="">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:id="_tSYDEAalEdyFBddya9hqEg">
+    <eAnnotations xmi:id="_sSg15QbXEdyFBddya9hqEg" source="uml2.extensions">
+      <details xmi:id="_sSg15gbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_tT3Q0AalEdyFBddya9hqEg" visibility="private">
+    <eAnnotations xmi:id="_sSg15wbXEdyFBddya9hqEg" source="uml2.extensions">
+      <details xmi:id="_sSg16AbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_tUBB0AalEdyFBddya9hqEg" name="metadata">
+    <eAnnotations xmi:id="_sSg16QbXEdyFBddya9hqEg" source="uml2.extensions">
+      <details xmi:id="_sSg16gbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_tUBB0QalEdyFBddya9hqEg" name="applyTo">
+      <eAnnotations xmi:id="_sSg16wbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg17AbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB0galEdyFBddya9hqEg" name="logFile">
+      <eAnnotations xmi:id="_sSg17QbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg17gbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB0walEdyFBddya9hqEg" name="pattern">
+      <eAnnotations xmi:id="_sSg17wbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg18AbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB1AalEdyFBddya9hqEg" name="targetModel">
+      <eAnnotations xmi:id="_sSg18QbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg18gbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB1QalEdyFBddya9hqEg" name="targetName">
+      <eAnnotations xmi:id="_sSg18wbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg19AbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB1galEdyFBddya9hqEg" name="targetProfile">
+      <eAnnotations xmi:id="_sSg19QbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg19gbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB1walEdyFBddya9hqEg" name="targetProject">
+      <eAnnotations xmi:id="_sSg19wbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg1-AbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB2AalEdyFBddya9hqEg" name="targetType">
+      <eAnnotations xmi:id="_sSg1-QbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg1-gbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB2QalEdyFBddya9hqEg" name="tempApplyTo">
+      <eAnnotations xmi:id="_sSg1-wbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg1_AbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB2galEdyFBddya9hqEg" name="tempLogFile">
+      <eAnnotations xmi:id="_sSg1_QbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg1_gbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB2walEdyFBddya9hqEg" name="tempName">
+      <eAnnotations xmi:id="_sSg1_wbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg2AAbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB3AalEdyFBddya9hqEg" name="tempPattern">
+      <eAnnotations xmi:id="_sSg2AQbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg2AgbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB3QalEdyFBddya9hqEg" name="tempTargetModel">
+      <eAnnotations xmi:id="_sSg2AwbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg2BAbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB3galEdyFBddya9hqEg" name="tempTargetName">
+      <eAnnotations xmi:id="_sSg2BQbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg2BgbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB3walEdyFBddya9hqEg" name="tempTargetProfile">
+      <eAnnotations xmi:id="_sSg2BwbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg2CAbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB4AalEdyFBddya9hqEg" name="tempTargetProject">
+      <eAnnotations xmi:id="_sSg2CQbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg2CgbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB4QalEdyFBddya9hqEg" name="tempTargetType">
+      <eAnnotations xmi:id="_sSg2CwbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg2DAbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_tUBB5QalEdyFBddya9hqEg" name="base_Class" association="_tUBB4galEdyFBddya9hqEg">
+      <eAnnotations xmi:id="_sSg2DQbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg2DgbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_WesCoAfTEdyw0a5becSFOA" name="diagramRoot">
+      <eAnnotations xmi:id="_m6REVgfTEdyw0a5becSFOA" source="uml2.extensions">
+        <details xmi:id="_m6REVwfTEdyw0a5becSFOA" key="addedInVersion" value="2"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_WfOWALHREd23pt4WH0cPnQ" name="dsl" visibility="public">
+      <eAnnotations xmi:id="_mmiX6LHREd23pt4WH0cPnQ" source="uml2.extensions">
+        <details xmi:id="_mmiX6bHREd23pt4WH0cPnQ" key="addedInVersion" value="2"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_jBgK0LHREd23pt4WH0cPnQ">
+        <eAnnotations xmi:id="_mmiX6rHREd23pt4WH0cPnQ" source="uml2.extensions">
+          <details xmi:id="_mmiX67HREd23pt4WH0cPnQ" key="addedInVersion" value="2"/>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <body>MissingDSL</body>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_tUBB4galEdyFBddya9hqEg" name="Class_patternApp" memberEnd="_tUBB4walEdyFBddya9hqEg _tUBB5QalEdyFBddya9hqEg">
+    <eAnnotations xmi:id="_sSg2DwbXEdyFBddya9hqEg" source="uml2.extensions">
+      <details xmi:id="_sSg2EAbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_tUBB4walEdyFBddya9hqEg" name="extension_patternApp" type="_tUBB0AalEdyFBddya9hqEg" aggregation="composite" association="_tUBB4galEdyFBddya9hqEg">
+      <eAnnotations xmi:id="_sSg2EQbXEdyFBddya9hqEg" source="uml2.extensions">
+        <details xmi:id="_sSg2EgbXEdyFBddya9hqEg" key="addedInVersion" value="1"/>
+      </eAnnotations>
+    </ownedEnd>
+  </packagedElement>
+</uml:Profile>

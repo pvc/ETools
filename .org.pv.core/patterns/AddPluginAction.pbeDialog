@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><properties label="The following model attributes are available to edit:" title="Pattern Model Editor">
+  <property label="Enter class name for new Action" name="name"/>
+  <property label="Enter menu label for Action" name="label" default="Run &amp;MyNewAction"/>
+  <property label="Package Folder" name="folder" type="wsFolder"/>
+</properties>

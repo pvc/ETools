@@ -1,0 +1,3 @@
+<properties label="The following model attributes are available to edit:" title="Pattern Model Editor">
+  <property label="Select wsdl file" name="wsdl" type="wsFile"/>
+</properties>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties continue="true" label="NB All paths should be relative to the root of the install media" pattern="com.ibm.sal.rapidsat.patterns.applicationWrapper" title="Application Wrapper Definition">
+<property default="windows" label="Target Platform" name="platform" value="windows"/>
+<property default="--Not Known" label="Install Media Folder" name="root" value="--Not Known"/>
+<property default="bin/install.exe" label="Path to executable" name="command" type="file" value="C:\Program Files\IBM\SAT\2.2\SolutionEnabler\workspace\RapidSAT_SATPluginPV\Patterns\SolutionWrapper.patzip"/>
+<property default="-silent" label="Arguments" name="arguments" value="-silent"/>
+<property label="Misc Features" name="sep1" type="line" value=""/>
+
+<property default="ResponseFile.txt" label="Model Response File" name="responseFile" value="ResponseFile.txt"/>
+<property default="/install" label="Working Directory" name="startDir" type="folder" value="C:\Documents and Settings\Administrator\Desktop\Tooling"/>
+<property default="windows;aix" label="Parameter List" name="parmList" type="stringList" value="strVersion;L/PVTools/src/com/ibm/pv/prefs/Dialog.xml;windows;aix;PVTools/src/com/ibm/pv/prefs/PBEDirectoryFieldEditor.java;PVTools/src/com/ibm/pv/prefs/SimplePrefPage.java;strVersion;"/>
+<property default="" label="Resource List" name="resourceList" type="resourceList" value="IRU2_2MyProduct6_2?"/>
+
+<property name="sep2" type="line" label=""/>
+<property label="Advanced Options" name="advanced" type="section" value=""/>
+<property default="-silent" label="Argument File" name="test" type="file" value="D:\$MyDocuments"/>
+<property default="windows;aix" label="Another Parameter List" name="list2" type="stringList" value="windows;aix;strVersion;"/>
+
+</properties>

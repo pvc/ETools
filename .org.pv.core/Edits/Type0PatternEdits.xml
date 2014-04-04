@@ -1,0 +1,21 @@
+<changeModel>
+	<filter path="/.WESBType0Pattern/pattern/templates/WESBType0">
+		<change from="http://premium" to="&lt;attr node=&quot;entry&quot; name=&quot;namespace&quot;/&gt;" />
+		<change from="http%253A%252F%252Fpremium" to="&lt;attr node=&quot;entry&quot; name=&quot;namespaceUE&quot;/&gt;" />
+		<change from="PremiumCreditServiceExport" to="&lt;attr node=&quot;entry&quot; name=&quot;export&quot;/&gt;" />
+		<change from="PremiumCreditServiceImport" to="&lt;attr node=&quot;entry&quot; name=&quot;import&quot;/&gt;" />
+		<change from="PremiumCreditServiceService" to="&lt;attr node=&quot;entry&quot; name=&quot;service&quot;/&gt;" />
+		<change from="PremiumCreditService" to="&lt;attr node=&quot;entry&quot; name=&quot;portType&quot;/&gt;" />
+		<change from="getPremiumCreditScoreRequest" to="&lt;attr node=&quot;opEntry&quot; name=&quot;opMsgIn&quot;/&gt;" />
+		<change from="getPremiumCreditScoreResponse" to="&lt;attr node=&quot;opEntry&quot; name=&quot;opMsgOut&quot;/&gt;" />
+		<change from="getPremiumCreditScore" to="&lt;attr node=&quot;opEntry&quot; name=&quot;opName&quot;/&gt;" />
+	</filter>
+	<comments>
+	PremiumCreditService wdsl/import/export name + mapped wsdl
+	setup naming.pat
+	
+	Limitations; single method, only rpc/encoded, no endpoint binding
+	
+	
+	</comments>
+</changeModel>

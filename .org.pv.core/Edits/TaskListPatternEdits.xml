@@ -1,0 +1,51 @@
+<changeModel>
+	<filter path="/.Type5Pattern/pattern/templates/Type5/realtime/RealtimeSBmapper.wsdl.pat">
+		<change from="RealtimeSBService" to="&lt;attr node=&quot;entry&quot; name=&quot;service&quot;/&gt;" />
+		<change from="RealtimeSBSoapBinding" to="&lt;attr node=&quot;entry&quot; name=&quot;binding&quot;/&gt;" />
+		<change from="RealtimeSBPartner" to="&lt;attr node=&quot;entry&quot; name=&quot;partner&quot;/&gt;" />
+		<change from="RealtimeSBExport1" to="&lt;attr node=&quot;entry&quot; name=&quot;export&quot;/&gt;" />
+		<change from="getRealTimeQuoteRequest" to="&lt;attr node=&quot;operation&quot; name=&quot;input&quot;/&gt;" />
+		<change from="getRealTimeQuoteResponse" to="&lt;attr node=&quot;operation&quot; name=&quot;output&quot;/&gt;" />
+		<change from="getRealTimeQuoteReturn" to="&lt;attr node=&quot;operation&quot; name=&quot;methodReturn&quot;/&gt;" />
+		<change from="RealtimeSB" to="&lt;attr node=&quot;entry&quot; name=&quot;portType&quot;/&gt;" />
+		<change from="Quote" to="&lt;attr node=&quot;class&quot; name=&quot;name&quot;/&gt;" />
+		<change from="&lt;include" to="&lt;&lt;zilch/&gt;include" />
+	</filter>
+	<filter path="/.Type5Pattern/pattern/templates/Type5/realtime/Type5_RealtimeSBExport1.wsdl.pat">
+		<change from="RealtimeSBService" to="&lt;attr node=&quot;entry&quot; name=&quot;service&quot;/&gt;" />
+		<change from="RealtimeSBSoapBinding" to="&lt;attr node=&quot;entry&quot; name=&quot;binding&quot;/&gt;" />
+		<change from="RealtimeSBPartner" to="&lt;attr node=&quot;entry&quot; name=&quot;partner&quot;/&gt;" />
+		<change from="RealtimeSBExport1" to="&lt;attr node=&quot;entry&quot; name=&quot;export&quot;/&gt;" />
+		<change from="getRealTimeQuoteRequest" to="&lt;attr node=&quot;operation&quot; name=&quot;input&quot;/&gt;" />
+		<change from="getRealTimeQuoteResponse" to="&lt;attr node=&quot;operation&quot; name=&quot;output&quot;/&gt;" />
+		<change from="getRealTimeQuoteReturn" to="&lt;attr node=&quot;operation&quot; name=&quot;methodReturn&quot;/&gt;" />
+		<change from="RealtimeSB" to="&lt;attr node=&quot;entry&quot; name=&quot;portType&quot;/&gt;" />
+	</filter>
+	<filter path="/.Type5Pattern/pattern/templates/Type5/gen/src/realtime/RealtimeSBCallback.java.pat">
+		
+	</filter>
+	<filter path="/.Type5Pattern/pattern/templates/Type5">
+		<change from="SimpleEJB" to="&lt;attr node=&quot;entry&quot; name=&quot;name&quot;/&gt;" />
+		<change from="RealtimeSBExport1" to="&lt;attr node=&quot;entry&quot; name=&quot;export&quot;/&gt;" />
+		<change from="RealtimeSBPartner" to="&lt;attr node=&quot;entry&quot; name=&quot;partner&quot;/&gt;" />
+		<change from="RealtimeSB" to="&lt;attr node=&quot;entry&quot; name=&quot;bean&quot;/&gt;" />
+		<change from="http://realtime" to="&lt;attr node=&quot;entry&quot; name=&quot;namespace&quot;/&gt;" />
+		<change from="http%253A%252F%252Frealtime" to="&lt;attr node=&quot;entry&quot; name=&quot;namespaceUE&quot;/&gt;" />
+		<change from="getRealtimeQuote" to="&lt;attr node=&quot;operation&quot; name=&quot;name&quot;/&gt;" />
+		<change from="GetRealtimeQuote" to="&lt;attr node=&quot;operation&quot; name=&quot;name&quot; format=&quot;U1&quot;/&gt;" />
+		<change from="Quote" to="&lt;attr node=&quot;operation&quot; name=&quot;javaType&quot;/&gt;" />
+		<change from="EJBImport" to="&lt;attr node=&quot;entry&quot; name=&quot;import&quot;/&gt;" />
+		<change from="realtime" to="&lt;attr node=&quot;entry&quot; name=&quot;beanPkg&quot;/&gt;" />
+		<change from="Realtime" to="&lt;attr node=&quot;entry&quot; name=&quot;beanStem&quot;/&gt;" />
+	</filter>
+	<comments>
+	PremiumCreditService wdsl/import/export name + mapped wsdl
+	setup naming.pat
+	
+	Limitations; single method, only rpc/encoded, no endpoint binding
+	
+	Iterates:
+	Type5.mfcex
+	
+	</comments>
+</changeModel>

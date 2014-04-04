@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Pattern Based Engineering Toolkit">
+	<topic label="Overview"  href="help/overview.html"> 
+		<topic href="help/subtopic.html" label="Sub Topic">
+     <anchor id="Anchor"/>
+     <link toc="Link"/>
+  </topic>
+  <topic label="Topic">
+  </topic> 
+	</topic>
+ <topic href="help/Menu.html" label="Menu Comands">
+ </topic>
+</toc>

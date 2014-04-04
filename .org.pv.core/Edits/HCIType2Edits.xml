@@ -1,0 +1,32 @@
+<changeModel>
+	<filter path="/.HCIType2Pattern/pattern/templates/HCIType2/HCIType2_ZZZCreditServiceExport.wsdl.pat">
+		<change from="ZZZCreditServiceService" to="&lt;attr node=&quot;entry&quot; name=&quot;service&quot;/&gt;" />
+		<change from="ZZZCreditServiceSoapBinding" to="&lt;attr node=&quot;entry&quot; name=&quot;binding&quot;/&gt;" />
+		<change from="ZZZCreditServiceExport" to="&lt;attr node=&quot;entry&quot; name=&quot;export&quot;/&gt;" />
+		<change from="getZZZCreditScoreRequest" to="&lt;attr node=&quot;operation&quot; name=&quot;input&quot;/&gt;" />
+		<change from="getZZZCreditScoreResponse" to="&lt;attr node=&quot;operation&quot; name=&quot;output&quot;/&gt;" />
+		<change from="ZZZCreditService" to="&lt;attr node=&quot;entry&quot; name=&quot;portType&quot;/&gt;" />
+	</filter>
+
+	<filter path="/.HCIType2Pattern/pattern/templates/HCIType2">
+		<change from="ZZZCreditServiceESBModule" to="&lt;attr node=&quot;entry&quot; name=&quot;module&quot;/&gt;" />
+		<change from="ZZZCreditServiceExport" to="&lt;attr node=&quot;entry&quot; name=&quot;export&quot;/&gt;" />
+		<change from="ZZZCreditServicePartner" to="&lt;attr node=&quot;entry&quot; name=&quot;partner&quot;/&gt;" />
+		<change from="ZZZCreditServiceImport" to="&lt;attr node=&quot;entry&quot; name=&quot;import&quot;/&gt;" />
+		<change from="http://premium" to="&lt;attr node=&quot;entry&quot; name=&quot;namespace&quot;/&gt;" />
+		<change from="http%253A%252F%252Fpremium" to="&lt;attr node=&quot;entry&quot; name=&quot;namespaceUE&quot;/&gt;" />
+		<change from="getZZZCreditScore" to="&lt;attr node=&quot;operation&quot; name=&quot;name&quot;/&gt;" />
+		<change from="GetZZZCreditScore" to="&lt;attr node=&quot;operation&quot; name=&quot;name&quot; format=&quot;U1&quot;/&gt;" />
+		<change from="ZZZCreditService" to="&lt;attr node=&quot;entry&quot; name=&quot;name&quot;/&gt;" />
+	</filter>
+	<comments>
+	PremiumCreditService wdsl/import/export name + mapped wsdl
+	setup naming.pat
+	
+	Limitations; single method, only rpc/encoded, no endpoint binding
+	
+	Iterates:
+	Type5.mfcex
+	
+	</comments>
+</changeModel>

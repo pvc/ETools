@@ -1,0 +1,9 @@
+<changeModel>
+	<filter path="Test">
+		<filter path="*.xml" regex="true"/>
+		<filter path="TestFile.xml">
+		<change from="Hello World2" to="Hello Srikanth" />
+		</filter>
+	</filter>
+	<filter path="xyz/lll/*/*.txt"/>
+</changeModel>

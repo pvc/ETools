@@ -1,0 +1,38 @@
+<changeModel>
+	<filter path="/.TaskListPattern/pattern/templates/TaskList/TDMM/TDMMSBmapper.wsdl.pat">
+		<change from="TDMMSBService" to="&lt;attr node=&quot;entry&quot; name=&quot;service&quot;/&gt;" />
+		<change from="TDMMSBSoapBinding" to="&lt;attr node=&quot;entry&quot; name=&quot;binding&quot;/&gt;" />
+		<change from="TDMMSBPartner" to="&lt;attr node=&quot;entry&quot; name=&quot;partner&quot;/&gt;" />
+		<change from="TDMMSBExport1" to="&lt;attr node=&quot;entry&quot; name=&quot;export&quot;/&gt;" />
+		<change from="getTDMMQuoteRequest" to="&lt;attr node=&quot;operation&quot; name=&quot;input&quot;/&gt;" />
+		<change from="getTDMMQuoteResponse" to="&lt;attr node=&quot;operation&quot; name=&quot;output&quot;/&gt;" />
+		<change from="getTDMMQuoteReturn" to="&lt;attr node=&quot;operation&quot; name=&quot;methodReturn&quot;/&gt;" />
+		<change from="TDMMSB" to="&lt;attr node=&quot;entry&quot; name=&quot;portType&quot;/&gt;" />
+		<change from="Quote" to="&lt;attr node=&quot;class&quot; name=&quot;name&quot;/&gt;" />
+		<change from="&lt;include" to="&lt;&lt;zilch/&gt;include" />
+	</filter>
+	<filter path="/.TaskListPattern/pattern/templates/TaskList/TDMM/TaskList_TDMMSBExport1.wsdl.pat">
+		<change from="TDMMSBService" to="&lt;attr node=&quot;entry&quot; name=&quot;service&quot;/&gt;" />
+		<change from="TDMMSBSoapBinding" to="&lt;attr node=&quot;entry&quot; name=&quot;binding&quot;/&gt;" />
+		<change from="TDMMSBPartner" to="&lt;attr node=&quot;entry&quot; name=&quot;partner&quot;/&gt;" />
+		<change from="TDMMSBExport1" to="&lt;attr node=&quot;entry&quot; name=&quot;export&quot;/&gt;" />
+		<change from="getTDMMQuoteRequest" to="&lt;attr node=&quot;operation&quot; name=&quot;input&quot;/&gt;" />
+		<change from="getTDMMQuoteResponse" to="&lt;attr node=&quot;operation&quot; name=&quot;output&quot;/&gt;" />
+		<change from="getTDMMQuoteReturn" to="&lt;attr node=&quot;operation&quot; name=&quot;methodReturn&quot;/&gt;" />
+		<change from="TDMMSB" to="&lt;attr node=&quot;entry&quot; name=&quot;portType&quot;/&gt;" />
+	</filter>
+	<filter path="/.TaskListPattern/pattern/templates/TaskList">
+		<change from="TDMM" to="&lt;attr node=&quot;entry&quot; name=&quot;name&quot; format=&quot;U1&quot;/&gt;" />
+		<change from="tdmm" to="&lt;attr node=&quot;entry&quot; name=&quot;name&quot; /&gt;" />
+		<change from="TDMMSBExport1" to="&lt;attr node=&quot;entry&quot; name=&quot;export&quot;/&gt;" />
+		<change from="TDMMSBPartner" to="&lt;attr node=&quot;entry&quot; name=&quot;partner&quot;/&gt;" />
+		<change from="TDMMSB" to="&lt;attr node=&quot;entry&quot; name=&quot;bean&quot;/&gt;" />
+		<change from="http://TDMM" to="&lt;attr node=&quot;entry&quot; name=&quot;namespace&quot;/&gt;" />
+		<change from="http%253A%252F%252FTDMM" to="&lt;attr node=&quot;entry&quot; name=&quot;namespaceUE&quot;/&gt;" />
+		<change from="getMyMethod" to="&lt;attr node=&quot;operation&quot; name=&quot;name&quot;/&gt;" />
+		<change from="GetMyMethod" to="&lt;attr node=&quot;operation&quot; name=&quot;name&quot; format=&quot;U1&quot;/&gt;" />
+		
+	</filter>
+	<comments>
+	</comments>
+</changeModel>

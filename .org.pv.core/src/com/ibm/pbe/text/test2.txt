@@ -1,0 +1,98 @@
+﻿ID	Work Product Assets	Source	Owner	Status
+				(Example, Draft, Complete, Integrated)	Link
+WP1	Architecture Overview Diagram	SWG AB Scenario 2 Work Products	Philip Thomas/Uk/IBM	Complete	"Candidate Assets" - "EMEA Lab Services ESB Asset" - 
+WP2	System Context	SWG AB Scenario 2 Work Products	Philip Thomas/Uk/IBM	Complete	"Candidate Assets" - "EMEA Lab Services ESB Asset" - 
+WP3	Requirements Matrix	SWG AB Scenario 2 Work Products	Philip Thomas/Uk/IBM	Complete	"Candidate Assets" - "EMEA Lab Services ESB Asset" - 
+WP4	Non-functional Requirements	SWG AB Scenario 2 Work Products	Philip Thomas/Uk/IBM	Complete	"Candidate Assets" - "EMEA Lab Services ESB Asset" - 
+WP5	Logical Component Model	SOA Implementation Class Work Products	Robert Vanorsdale/Pittsburgh/IBM	Complete	"Candidate Assets" - "SOA Impl Workshop - Product Specific Component Models" - 
+WP6	Specific Component Model (WBI MB)	SOA Implementation Class Work Products	Robert Vanorsdale/Pittsburgh/IBM	Complete	"Candidate Assets" - "SOA Impl Workshop - Product Specific Component Models" - 
+WP7	Specific Component Model (W-ESB)	SOA Implementation Class Work Products	Robert Vanorsdale/Pittsburgh/IBM	Complete	"Candidate Assets" - "SOA Impl Workshop - Product Specific Component Models" - 
+WP8	Specific Component Model (W-MQ)	SOA Implementation Class Work Products	Robert Vanorsdale/Pittsburgh/IBM	Complete	"Candidate Assets" - "SOA Impl Workshop - Product Specific Component Models" - 
+WP9	Specific Component Model (SI Bus)	SOA Implementation Class Work Products	Robert Vanorsdale/Pittsburgh/IBM	Complete	"Candidate Assets" - "SOA Impl Workshop - Product Specific Component Models" - 
+WP10	Current IT Environment (Reusable Architecture Engagement - Conceptual Architecture)	https://w3.webahead.ibm.com/w3ki/display/ISSWEngagementModel/Conceptual+Architecture+Services+Generic+Offering	Alan Chivers/Uk/IBM	Complete	"Candidate Assets" - "Reusable Architecture Engagement - Conceptual Architecture" - 
+WP11	Current Organisation (Reusable Architecture Engagement - Conceptual Architecture)	https://w3.webahead.ibm.com/w3ki/display/ISSWEngagementModel/Conceptual+Architecture+Services+Generic+Offering	Alan Chivers/Uk/IBM	Complete	"Candidate Assets" - "Reusable Architecture Engagement - Conceptual Architecture" - 
+WP12	Operational Model	ISSW / ISSL Harvested Asset	Raj Balasubramanian/Philadelphia/IBM	Draft	"Candidate Assets" - "<IBM Confidential> SOA Operaitional Model" - 
+WP13	Toyota ESB Operational Model (WBI MB)	https://ate06db.raleigh.ibm.com/a_dir/AIMICRep.nsf/a3939208687c71a285256bd100600899/8FD91727DF5FBF0F8525718400657D1F?OpenDocument	Jim Sides/Austin/IBM	Example	"Candidate Assets" - "Toyota ESB Operational Model" - 
+WP14	Use Case Model	SWG AB Scenario 2 Work Products	Philip Thomas/Uk/IBM	Complete	"Candidate Assets" - "EMEA Lab Services ESB Asset" - 
+WP15	Architecture Decisions	SWG AB Scenario 2 Work Products	Philip Thomas/Uk/IBM	Complete	"Candidate Assets" - "EMEA Lab Services ESB Asset" - 
+WP16	Business Context Diagram	SWG AB Scenario 2 Work Products	Philip Thomas/Uk/IBM	Complete	"Candidate Assets" - "EMEA Lab Services ESB Asset" - 
+	Technique Paper Assets	Source	Owner	Status
+				(Example, Draft, Complete, Integrated)	Link
+TP1	ESB Technology and Topology Decision Guide	SWB AB Scenarios teamroom	Greg Flurry/Austin/IBM, Rachel Reinitz/Mountain View/IBM	Draft	"Candidate Assets" - "ESB Decision Guide from SWG AB SOA Scenario 2" - 
+TP2	ISSW ESB Reference Model	n/a	Greg Flurry/Austin/IBM	Draft	"Candidate Assets" - "ESB "reference" article series description and Part 1" - 
+TP3	ESB Asset Requirements Definition Workshop	SWG AB Scenario 2 Work Products	Philip Thomas/Uk/IBM	Complete	"Candidate Assets" - "EMEA Lab Services ESB Asset" - 
+TP4	Redbook SG246346: Patterns: Implementing an SOA using an Enterprise Service Bus	http://w3.itso.ibm.com/abstracts/sg246346.html?Open	Jonathan Adams/UK/IBM	Complete	n/a
+TP5	Reusable Architecture Engagement - Detailed Architecture and Design	https://w3.webahead.ibm.com/w3ki/pages/viewpage.action?pageId=152973	Alan Chivers/Uk/IBM	`Complete	"Candidate Assets" - "Reusable Architecture Engagement - Detailed Architecture and Design" - 
+TP6	Reusable Architecture Engagement - Conceptual Architecture	https://w3.webahead.ibm.com/w3ki/display/ISSWEngagementModel/Conceptual+Architecture+Services+Generic+Offering	Alan Chivers/Uk/IBM	Complete	"Candidate Assets" - "Reusable Architecture Engagement - Conceptual Architecture" - 
+TP7	SOA Realisation Class Materials	n/a	Denise Hatzidakis/Austin/Contr/IBM@IBMUS	Draft	"Candidate Assets" - "SOA Realisation Course Design" - 
+TP8	Redbook SG246773: Patterns: Integrating Enterprise Service Buses in a Service-Oriented Architecture	http://w3.itso.ibm.com/abstracts/sg246773.html?Open	Jonathan Adams/UK/IBM	Complete	n/a
+TP9	Rebook SG247135: Patterns: Extended Enterprise SOA and Web Services	http://w3.itso.ibm.com/abstracts/sg247135.html?Open	Jonathan Adams/Uk/IBM	Complete	n/a
+TP10	Redbook SG247163 Enabling SOA Using WebSphere Messaging	http://w3.itso.ibm.com/abstracts/sg247163.html?Open	SWG	Complete	n/a
+TP11	Redbook SG246494: Patterns: SOA with an Enterprise Service Bus in WebSphere Application Server V6	http://w3.itso.ibm.com/abstracts/sg246494.html?Open	Jonathan Adams/UK/IBM	Complete	n/a
+TP12	EAI Capability Pattern and Technique Paper	Bob Vanorsdale	Robert Vanorsdale/Pittsburgh/IBM	Complete	"Candidate Assets" - "EAI capability pattern and technique paper from Bob Vanorsdale" - 
+TP13	GS Method Component Modelling	http://method.ibm.com/	GS Method	Complete	"Candidate Assets" - "GS Method Component Modelling Technique Paper" - 
+TP14	ESB Reference Architecture	https://ate06db.raleigh.ibm.com/a_dir/AIMICRep.nsf/a3939208687c71a285256bd100600899/95DD58C1FD6AE972852570D7006DBE5E?OpenDocument	Greg Flurry/Austin/IBM	Example	"Candidate Assets" - "<IBM Confidential>ESB Reference Architecture" - 
+TP15	GS Method Operational Modelling	http://method.ibm.com/	GS Method	Complete	"Candidate Assets" - "GS Method Technique Paper: Defining Conceptual System Architecture" - 
+					
+	Roadmap Assets	Source	Owner	Status
+				(Example, Draft, Complete, Integrated)	Link
+RM1	Customer Enablement (Services and Education) Roadmap	AP SOA Offerings	Benjamin Thurgood/Australia/IBM	Draft	"Candidate Assets" - "SOA Offering Roadmap" - 
+RM2	Service Integration Maturity Model (SIMM)	SOA Centre of Excellence	Ali Arsanjani/Cedar Rapids/IBM	Complete	"Candidate Assets" - "Service Integration Maturity Model" - 
+	Sales Assets	Source	Owner	Status
+				(Example, Draft, Complete, Integrated)	Link
+SA1	ESB Architecture and Design Offering Sales Pitch	ISSW Architecture Engagement Models	Rick Robinson	Draft	"Service Offering Collaterol Under Development" - "Offering Sales Material" - 
+SA2	SOW for Reusable Architecture Engagement - Detailed Architecture and Design	https://w3.webahead.ibm.com/w3ki/pages/viewpage.action?pageId=152973	Alan Chivers/Uk/IBM	`Complete	"Candidate Assets" - "Reusable Architecture Engagement - Detailed Architecture and Design" - 
+SA3	SOW for Reusable Architecture Engagement - Conceptual Architecture	https://w3.webahead.ibm.com/w3ki/display/ISSWEngagementModel/Conceptual+Architecture+Services+Generic+Offering	Alan Chivers/Uk/IBM	Complete	"Candidate Assets" - "Reusable Architecture Engagement - Conceptual Architecture" - 
+SA4	Template Deliverable for Reusable Architecture Engagement - Detailed Architecture and Design	https://w3.webahead.ibm.com/w3ki/pages/viewpage.action?pageId=152973	Alan Chivers/Uk/IBM	`Complete	"Candidate Assets" - "Reusable Architecture Engagement - Detailed Architecture and Design" - 
+SA5	Template Deliverable for Reusable Architecture Engagement - Conceptual Architecture	https://w3.webahead.ibm.com/w3ki/display/ISSWEngagementModel/Conceptual+Architecture+Services+Generic+Offering	Alan Chivers/Uk/IBM	Complete	"Candidate Assets" - "Reusable Architecture Engagement - Conceptual Architecture" - 
+					
+	W-ESB Assets	Source	Owner	Status
+				(Example, Draft, Complete, Integrated)	Link
+ES1	Redbook SG247163 Enabling SOA Using WebSphere Messaging	http://w3.itso.ibm.com/abstracts/sg247163.html?Open	SWG	Complete	n/a
+	WBI MB Assets	Source	Owner	Status
+				(Example, Draft, Complete, Integrated)	Link
+WB1	WBI MB UML Notation	http://www-1.ibm.com/support/docview.wss?rs=171&uid=swg24006700&loc=en_US&cs=utf-8&lang=en	SWG	Complete	"Candidate Assets" - "WBI MB UML Notation" - 
+WB2	WBI MB Web Services Support	http://www-1.ibm.com/support/docview.wss?uid=swg27007090&aid=7	SWG	Complete	n/a
+WB3	Complex Event Processing	http://www-1.ibm.com/support/docview.wss?uid=swg27007090&aid=5	SWG	Complete	n/a
+WB4	RedPaper: Using Message Sets in WebSphere Business Integration Message Broker to Implement an ESB in an SOA	http://w3.itso.ibm.com/abstracts/redp3978.html?Open	Jonathan Adams/Uk/IBM	Complete	n/a
+WB5	Redbook SG247163 Enabling SOA Using WebSphere Messaging	http://w3.itso.ibm.com/abstracts/sg247163.html?Open	SWG	Complete	n/a
+WB6	Redbook SG246773: Patterns: Integrating Enterprise Service Buses in a Service-Oriented Architecture	http://w3.itso.ibm.com/abstracts/sg246773.html?Open	Jonathan Adams/UK/IBM	Complete	n/a
+WB7	Redbook SG246346: Patterns: Implementing an SOA using an Enterprise Service Bus	http://w3.itso.ibm.com/abstracts/sg246346.html?Open	Jonathan Adams/UK/IBM	Complete	n/a
+	WS-Gateway Assets	Source	Owner	Status
+				(Example, Draft, Complete, Integrated)	Link
+WG1	Rebook SG247135: Patterns: Extended Enterprise SOA and Web Services	http://w3.itso.ibm.com/abstracts/sg247135.html?Open	Jonathan Adams/Uk/IBM	Complete	n/a
+	WebSphere Partner Gateway Assets	Source	Owner	Status
+				(Example, Draft, Complete, Integrated)	Link
+PG1	Rebook SG247135: Patterns: Extended Enterprise SOA and Web Services	http://w3.itso.ibm.com/abstracts/sg247135.html?Open	Jonathan Adams/Uk/IBM	Complete	n/a
+	SI Bus Assets			Status
+				(Example, Draft, Complete, Integrated)	
+SI1	Rebook SG247135: Patterns: Extended Enterprise SOA and Web Services	http://w3.itso.ibm.com/abstracts/sg247135.html?Open	Jonathan Adams/Uk/IBM	Complete	n/a
+SI2	Redbook SG246494: Patterns: SOA with an Enterprise Service Bus in WebSphere Application Server V6	http://w3.itso.ibm.com/abstracts/sg246494.html?Open	Jonathan Adams/UK/IBM	Complete	n/a
+SI3	Redbook SG246773: Patterns: Integrating Enterprise Service Buses in a Service-Oriented Architecture	http://w3.itso.ibm.com/abstracts/sg246773.html?Open	Jonathan Adams/UK/IBM	Complete	n/a
+SI4	Redbook SG246346: Patterns: Implementing an SOA using an Enterprise Service Bus	http://w3.itso.ibm.com/abstracts/sg246346.html?Open	Jonathan Adams/UK/IBM	Complete	n/a
+	DataPower Assets	Source	Owner	Status
+				(Example, Draft, Complete, Integrated)	Link
+DP1	DataPower Overview	https://ate06db.raleigh.ibm.com/a_dir/AIMICRep.nsf/a3939208687c71a285256bd100600899/9840FB2F275C53118525717A005AF26C?OpenDocument	Robert Peterson/Austin/IBM	Complete	"Candidate Assets" - "<IBM Confidential>DataPower Overview" - 
+	Registry and versioning assets	Source	Owner	Status
+				(Example, Draft, Complete, Integrated)	Link
+RR1	WSRR Education	https://ate06db.raleigh.ibm.com/a_dir/AIMICRep.nsf/a3939208687c71a285256bd100600899/950EB8B011FA71A08525717E006261D9?OpenDocument	Daniel Murphy/UK/IBM	Draft	"Candidate Assets" - "WebSphere Service Registry and Repository (WSRR) Course Material" - 
+RR2	Web services Versioning	http://www-128.ibm.com/developerworks/webservices/library/ws-version/	Kyle Brown/Raleigh/IBM	Complete	"Candidate Assets" - "Web services Versioning" - 
+RR3	Service Versioning	n/a	Michael Ellis/Toronto/IBM	Draft	"Candidate Assets" - "Service Versioning" - 
+RR4	Service Registry Introduction	http://submit.boulder.ibm.com/wsdd/wstc/presentations/A28.ppt	Barbara McKee/Austin/IBM	Draft	"Candidate Assets" - "Service Registry Introduction" - 
+	Web Services Assets	Source	Owner	Status
+				(Example, Draft, Complete, Integrated)	Link
+WS1	SOA and Web services Best Practises	https://ate06db.raleigh.ibm.com/a_dir/AIMICRep.nsf/a3939208687c71a285256bd100600899/1B8A7DECA606F7178525710A007B61CE?OpenDocument	Warren Fung/Toronto/IBM	Complete	"Candidate Assets" - "SOA and Web services Best Practises" - 
+	Security Assets	Source	Owner	Status
+				(Example, Draft, Complete, Integrated)	Link
+SE1	XML Security Threats	http://www-128.ibm.com/developerworks/websphere/techjournal/0603_col_hines/0603_col_hines.html	Bill Hines/Mechanicsburg/IBM	Complete	http://www-128.ibm.com/developerworks/websphere/techjournal/0603_col_hines/0603_col_hines.html
+SE2	Web services Security with WebSphere Application Server parts 1-4	http://www-128.ibm.com/developerworks/websphere/techjournal/0603_cowan/0603_cowan.html
+		http://www-128.ibm.com/developerworks/websphere/techjournal/0604_singh/0604_singh.html
+		http://www-128.ibm.com/developerworks/websphere/techjournal/0606_singh/0606_singh.html
+		http://ltsbwass001.sby.ibm.com/cms/developerworks/websphere/techjournal/0607_desprets/0607_desprets.html
+			Various	Complete	n/a
+SE3	SOA Security	http://submit.boulder.ibm.com/wsdd/wstc/presentations/A41.ppt	Maryann Hondo/Austin/IBM 	Complete	"Candidate Assets" - "SOA Security" - 
+SE4	Web services Security Architectures	http://submit.boulder.ibm.com/wsdd/wstc/presentations/A32.ppt	Tony Cowan/Pittsburgh/IBM, Yaroslav Dunchych/Toronto/IBM	Complete	"Candidate Assets" - "Web services Security Architectures" - 
+	Systems Management Assets	Source	Owner	Status
+				(Example, Draft, Complete, Integrated)	Link
+SM1	SOA Management presentation	http://submit.boulder.ibm.com/wsdd/wstc/presentations/A04.ppt	Rosalind Radcliffe/Raleigh/IBM	Complete	"Candidate Assets" - "SOA Management" - 
+					

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="uml"/>
+	<classpathentry kind="src" path="WID"/>
+	<classpathentry kind="src" path="dptk"/>
+	<classpathentry kind="src" path="notInUse"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="plugletFacade"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

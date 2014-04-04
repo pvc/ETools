@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mapping:MappingRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Mapping="Mapping.xmi" xmlns:XML="XML.xmi" xmi:id="MappingRoot_1155829056247" outputReadOnly="true" topToBottom="true">
+  <inputs xmi:type="XML:XMLDocument" href="test.xml.target.root.dtdxml#9"/>
+  <outputs xmi:type="XML:XMLDocument" href="test.xml.target.root.dtdxml#9"/>
+</Mapping:MappingRoot>

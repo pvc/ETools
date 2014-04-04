@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+<extension
+         point="com.ibm.xtools.uml2.msl.UMLProfiles">
+   <UMLProfile name="P4eb ESB Profile"
+            path="/P4ebProfiles/P4ebESBProfile.epx"
+            required="false"
+            visible="true">
+   </UMLProfile>
+</extension>
+<extension
+         point="org.eclipse.ui.commands">
+         <command
+            name="JEdit"
+            description="Edit associated Java Class"
+            categoryId="org.eclipse.ui.category.edit"
+            id="com.ibm.p4eb.jedit">
+         </command>   
+         <keyBinding
+            commandId="com.ibm.p4eb.jedit"
+            keySequence="Ctrl+J"
+            keyConfigurationId="org.eclipse.ui.defaultAcceleratorConfiguration">
+         </keyBinding>   
+   </extension>
+   
+   
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="P4eb RSAToolkit Action Set" 
+            visible="true"
+            id="com.ibm.p4eb.RSAToolkit.actionSet">
+         <menu
+               label="P4e&amp;b"
+               id="P4ebMenu">
+            <separator name="SelfService"></separator>
+            <separator name="ProcessIntegration"></separator>
+            <separator name="ESB"></separator>
+         </menu>
+        <menu
+               label="P4e&amp;bSubmenu"
+               id="SelfService"
+               path="P4ebMenu">
+            <separator
+                  name="P4ebSubGroup">
+            </separator>	
+         </menu>         
+         <action
+         definitionId="com.ibm.p4eb.jedit"
+               label="&amp;JEdit"
+               icon="icons/sample.gif"
+               class="com.ibm.p4eb.RSAToolkit.actions.P4ebJEditAction"
+               tooltip="Edit associated Java class"
+               menubarPath="P4ebMenu"
+               toolbarPath="P4ebRSAToolkit"
+               id="com.ibm.p4eb.RSAToolkit.actions.P4ebJEditAction">
+         </action>
+         
+         <action
+               XtoolbarPath="none"
+               label="&amp;P4ebSample Action99"
+               tooltip="P4ebActionA99"
+               class="com.ibm.p4eb.RSAToolkit.actions.P4ebJEditAction"
+               icon="icons/sample2.gif"
+               menubarPath="P4ebMenu/P4ebSubMenu/P4ebSubGroup"
+               id="com.ibm.p4eb.P4ebMenu.actions.P4ebSampleAction99">
+         </action>
+         <action
+               XtoolbarPath="none"
+               label="&amp;P4ebSample Action999"
+               tooltip="P4ebActionA99"
+               class="com.ibm.p4eb.RSAToolkit.actions.P4ebJEditAction"
+               icon="icons/sample.gif"
+               menubarPath="P4ebMenu/P4ebSubMenu/P4ebSubGroup"
+               id="com.ibm.p4eb.P4ebMenu.actions.P4ebSampleAction999">
+         </action>
+         
+         <action
+               toolbarPath="P4ebGroup"
+               label="&amp;P4ebSample Action"
+               tooltip="P4ebActionA"
+               class="com.ibm.p4eb.RSAToolkit.actions.P4ebJEditAction"
+               icon="icons/sample.gif"
+               menubarPath="P4ebMenu/P4ebGroup"
+               id="com.ibm.p4eb.P4ebMenu.actions.P4ebSampleAction">
+         </action>
+         <action
+               label="P4e&amp;b"
+               icon="icons/sample.gif"
+               class="com.ibm.p4eb.RSAToolkit.actions.P4ebJEditAction"
+               tooltip="P43b Action B"
+               menubarPath="P4ebMenu/P4ebGroup2"
+               toolbarPath="P4ebGroup"
+               id="com.ibm.p4eb.P4ebMenu.actions.P4ebSampleAction2">
+         </action>
+ 
+      </actionSet>
+      
+      
+   </extension>
+   
+
+</plugin>

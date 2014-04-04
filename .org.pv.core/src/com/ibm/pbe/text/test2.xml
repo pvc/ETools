@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row id="0">
+    <field id="0" value="﻿ID"/>
+    <field id="1" value="Work Product Assets"/>
+    <field id="2" value="Source"/>
+    <field id="3" value="Owner"/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="1">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+    <field id="5" value="Link"/>
+  </row>
+  <row id="2">
+    <field id="0" value="WP1"/>
+    <field id="1" value="Architecture Overview Diagram"/>
+    <field id="2" value="SWG AB Scenario 2 Work Products"/>
+    <field id="3" value="Philip Thomas/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;EMEA Lab Services ESB Asset&quot; - "/>
+  </row>
+  <row id="3">
+    <field id="0" value="WP2"/>
+    <field id="1" value="System Context"/>
+    <field id="2" value="SWG AB Scenario 2 Work Products"/>
+    <field id="3" value="Philip Thomas/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;EMEA Lab Services ESB Asset&quot; - "/>
+  </row>
+  <row id="4">
+    <field id="0" value="WP3"/>
+    <field id="1" value="Requirements Matrix"/>
+    <field id="2" value="SWG AB Scenario 2 Work Products"/>
+    <field id="3" value="Philip Thomas/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;EMEA Lab Services ESB Asset&quot; - "/>
+  </row>
+  <row id="5">
+    <field id="0" value="WP4"/>
+    <field id="1" value="Non-functional Requirements"/>
+    <field id="2" value="SWG AB Scenario 2 Work Products"/>
+    <field id="3" value="Philip Thomas/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;EMEA Lab Services ESB Asset&quot; - "/>
+  </row>
+  <row id="6">
+    <field id="0" value="WP5"/>
+    <field id="1" value="Logical Component Model"/>
+    <field id="2" value="SOA Implementation Class Work Products"/>
+    <field id="3" value="Robert Vanorsdale/Pittsburgh/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;SOA Impl Workshop - Product Specific Component Models&quot; - "/>
+  </row>
+  <row id="7">
+    <field id="0" value="WP6"/>
+    <field id="1" value="Specific Component Model (WBI MB)"/>
+    <field id="2" value="SOA Implementation Class Work Products"/>
+    <field id="3" value="Robert Vanorsdale/Pittsburgh/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;SOA Impl Workshop - Product Specific Component Models&quot; - "/>
+  </row>
+  <row id="8">
+    <field id="0" value="WP7"/>
+    <field id="1" value="Specific Component Model (W-ESB)"/>
+    <field id="2" value="SOA Implementation Class Work Products"/>
+    <field id="3" value="Robert Vanorsdale/Pittsburgh/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;SOA Impl Workshop - Product Specific Component Models&quot; - "/>
+  </row>
+  <row id="9">
+    <field id="0" value="WP8"/>
+    <field id="1" value="Specific Component Model (W-MQ)"/>
+    <field id="2" value="SOA Implementation Class Work Products"/>
+    <field id="3" value="Robert Vanorsdale/Pittsburgh/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;SOA Impl Workshop - Product Specific Component Models&quot; - "/>
+  </row>
+  <row id="10">
+    <field id="0" value="WP9"/>
+    <field id="1" value="Specific Component Model (SI Bus)"/>
+    <field id="2" value="SOA Implementation Class Work Products"/>
+    <field id="3" value="Robert Vanorsdale/Pittsburgh/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;SOA Impl Workshop - Product Specific Component Models&quot; - "/>
+  </row>
+  <row id="11">
+    <field id="0" value="WP10"/>
+    <field id="1" value="Current IT Environment (Reusable Architecture Engagement - Conceptual Architecture)"/>
+    <field id="2" value="https://w3.webahead.ibm.com/w3ki/display/ISSWEngagementModel/Conceptual+Architecture+Services+Generic+Offering"/>
+    <field id="3" value="Alan Chivers/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Reusable Architecture Engagement - Conceptual Architecture&quot; - "/>
+  </row>
+  <row id="12">
+    <field id="0" value="WP11"/>
+    <field id="1" value="Current Organisation (Reusable Architecture Engagement - Conceptual Architecture)"/>
+    <field id="2" value="https://w3.webahead.ibm.com/w3ki/display/ISSWEngagementModel/Conceptual+Architecture+Services+Generic+Offering"/>
+    <field id="3" value="Alan Chivers/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Reusable Architecture Engagement - Conceptual Architecture&quot; - "/>
+  </row>
+  <row id="13">
+    <field id="0" value="WP12"/>
+    <field id="1" value="Operational Model"/>
+    <field id="2" value="ISSW / ISSL Harvested Asset"/>
+    <field id="3" value="Raj Balasubramanian/Philadelphia/IBM"/>
+    <field id="4" value="Draft"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;&lt;IBM Confidential&gt; SOA Operaitional Model&quot; - "/>
+  </row>
+  <row id="14">
+    <field id="0" value="WP13"/>
+    <field id="1" value="Toyota ESB Operational Model (WBI MB)"/>
+    <field id="2" value="https://ate06db.raleigh.ibm.com/a_dir/AIMICRep.nsf/a3939208687c71a285256bd100600899/8FD91727DF5FBF0F8525718400657D1F?OpenDocument"/>
+    <field id="3" value="Jim Sides/Austin/IBM"/>
+    <field id="4" value="Example"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Toyota ESB Operational Model&quot; - "/>
+  </row>
+  <row id="15">
+    <field id="0" value="WP14"/>
+    <field id="1" value="Use Case Model"/>
+    <field id="2" value="SWG AB Scenario 2 Work Products"/>
+    <field id="3" value="Philip Thomas/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;EMEA Lab Services ESB Asset&quot; - "/>
+  </row>
+  <row id="16">
+    <field id="0" value="WP15"/>
+    <field id="1" value="Architecture Decisions"/>
+    <field id="2" value="SWG AB Scenario 2 Work Products"/>
+    <field id="3" value="Philip Thomas/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;EMEA Lab Services ESB Asset&quot; - "/>
+  </row>
+  <row id="17">
+    <field id="0" value="WP16"/>
+    <field id="1" value="Business Context Diagram"/>
+    <field id="2" value="SWG AB Scenario 2 Work Products"/>
+    <field id="3" value="Philip Thomas/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;EMEA Lab Services ESB Asset&quot; - "/>
+  </row>
+  <row id="18">
+    <field id="0" value=""/>
+    <field id="1" value="Technique Paper Assets"/>
+    <field id="2" value="Source"/>
+    <field id="3" value="Owner"/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="19">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+    <field id="5" value="Link"/>
+  </row>
+  <row id="20">
+    <field id="0" value="TP1"/>
+    <field id="1" value="ESB Technology and Topology Decision Guide"/>
+    <field id="2" value="SWB AB Scenarios teamroom"/>
+    <field id="3" value="Greg Flurry/Austin/IBM, Rachel Reinitz/Mountain View/IBM"/>
+    <field id="4" value="Draft"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;ESB Decision Guide from SWG AB SOA Scenario 2&quot; - "/>
+  </row>
+  <row id="21">
+    <field id="0" value="TP2"/>
+    <field id="1" value="ISSW ESB Reference Model"/>
+    <field id="2" value="n/a"/>
+    <field id="3" value="Greg Flurry/Austin/IBM"/>
+    <field id="4" value="Draft"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;ESB &quot;reference&quot; article series description and Part 1&quot; - "/>
+  </row>
+  <row id="22">
+    <field id="0" value="TP3"/>
+    <field id="1" value="ESB Asset Requirements Definition Workshop"/>
+    <field id="2" value="SWG AB Scenario 2 Work Products"/>
+    <field id="3" value="Philip Thomas/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;EMEA Lab Services ESB Asset&quot; - "/>
+  </row>
+  <row id="23">
+    <field id="0" value="TP4"/>
+    <field id="1" value="Redbook SG246346: Patterns: Implementing an SOA using an Enterprise Service Bus"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg246346.html?Open"/>
+    <field id="3" value="Jonathan Adams/UK/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="24">
+    <field id="0" value="TP5"/>
+    <field id="1" value="Reusable Architecture Engagement - Detailed Architecture and Design"/>
+    <field id="2" value="https://w3.webahead.ibm.com/w3ki/pages/viewpage.action?pageId=152973"/>
+    <field id="3" value="Alan Chivers/Uk/IBM"/>
+    <field id="4" value="`Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Reusable Architecture Engagement - Detailed Architecture and Design&quot; - "/>
+  </row>
+  <row id="25">
+    <field id="0" value="TP6"/>
+    <field id="1" value="Reusable Architecture Engagement - Conceptual Architecture"/>
+    <field id="2" value="https://w3.webahead.ibm.com/w3ki/display/ISSWEngagementModel/Conceptual+Architecture+Services+Generic+Offering"/>
+    <field id="3" value="Alan Chivers/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Reusable Architecture Engagement - Conceptual Architecture&quot; - "/>
+  </row>
+  <row id="26">
+    <field id="0" value="TP7"/>
+    <field id="1" value="SOA Realisation Class Materials"/>
+    <field id="2" value="n/a"/>
+    <field id="3" value="Denise Hatzidakis/Austin/Contr/IBM@IBMUS"/>
+    <field id="4" value="Draft"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;SOA Realisation Course Design&quot; - "/>
+  </row>
+  <row id="27">
+    <field id="0" value="TP8"/>
+    <field id="1" value="Redbook SG246773: Patterns: Integrating Enterprise Service Buses in a Service-Oriented Architecture"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg246773.html?Open"/>
+    <field id="3" value="Jonathan Adams/UK/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="28">
+    <field id="0" value="TP9"/>
+    <field id="1" value="Rebook SG247135: Patterns: Extended Enterprise SOA and Web Services"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg247135.html?Open"/>
+    <field id="3" value="Jonathan Adams/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="29">
+    <field id="0" value="TP10"/>
+    <field id="1" value="Redbook SG247163 Enabling SOA Using WebSphere Messaging"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg247163.html?Open"/>
+    <field id="3" value="SWG"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="30">
+    <field id="0" value="TP11"/>
+    <field id="1" value="Redbook SG246494: Patterns: SOA with an Enterprise Service Bus in WebSphere Application Server V6"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg246494.html?Open"/>
+    <field id="3" value="Jonathan Adams/UK/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="31">
+    <field id="0" value="TP12"/>
+    <field id="1" value="EAI Capability Pattern and Technique Paper"/>
+    <field id="2" value="Bob Vanorsdale"/>
+    <field id="3" value="Robert Vanorsdale/Pittsburgh/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;EAI capability pattern and technique paper from Bob Vanorsdale&quot; - "/>
+  </row>
+  <row id="32">
+    <field id="0" value="TP13"/>
+    <field id="1" value="GS Method Component Modelling"/>
+    <field id="2" value="http://method.ibm.com/"/>
+    <field id="3" value="GS Method"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;GS Method Component Modelling Technique Paper&quot; - "/>
+  </row>
+  <row id="33">
+    <field id="0" value="TP14"/>
+    <field id="1" value="ESB Reference Architecture"/>
+    <field id="2" value="https://ate06db.raleigh.ibm.com/a_dir/AIMICRep.nsf/a3939208687c71a285256bd100600899/95DD58C1FD6AE972852570D7006DBE5E?OpenDocument"/>
+    <field id="3" value="Greg Flurry/Austin/IBM"/>
+    <field id="4" value="Example"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;&lt;IBM Confidential&gt;ESB Reference Architecture&quot; - "/>
+  </row>
+  <row id="34">
+    <field id="0" value="TP15"/>
+    <field id="1" value="GS Method Operational Modelling"/>
+    <field id="2" value="http://method.ibm.com/"/>
+    <field id="3" value="GS Method"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;GS Method Technique Paper: Defining Conceptual System Architecture&quot; - "/>
+  </row>
+  <row id="35"/>
+  <row id="36">
+    <field id="0" value=""/>
+    <field id="1" value="Roadmap Assets"/>
+    <field id="2" value="Source"/>
+    <field id="3" value="Owner"/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="37">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+    <field id="5" value="Link"/>
+  </row>
+  <row id="38">
+    <field id="0" value="RM1"/>
+    <field id="1" value="Customer Enablement (Services and Education) Roadmap"/>
+    <field id="2" value="AP SOA Offerings"/>
+    <field id="3" value="Benjamin Thurgood/Australia/IBM"/>
+    <field id="4" value="Draft"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;SOA Offering Roadmap&quot; - "/>
+  </row>
+  <row id="39">
+    <field id="0" value="RM2"/>
+    <field id="1" value="Service Integration Maturity Model (SIMM)"/>
+    <field id="2" value="SOA Centre of Excellence"/>
+    <field id="3" value="Ali Arsanjani/Cedar Rapids/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Service Integration Maturity Model&quot; - "/>
+  </row>
+  <row id="40">
+    <field id="0" value=""/>
+    <field id="1" value="Sales Assets"/>
+    <field id="2" value="Source"/>
+    <field id="3" value="Owner"/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="41">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+    <field id="5" value="Link"/>
+  </row>
+  <row id="42">
+    <field id="0" value="SA1"/>
+    <field id="1" value="ESB Architecture and Design Offering Sales Pitch"/>
+    <field id="2" value="ISSW Architecture Engagement Models"/>
+    <field id="3" value="Rick Robinson"/>
+    <field id="4" value="Draft"/>
+    <field id="5" value="&quot;Service Offering Collaterol Under Development&quot; - &quot;Offering Sales Material&quot; - "/>
+  </row>
+  <row id="43">
+    <field id="0" value="SA2"/>
+    <field id="1" value="SOW for Reusable Architecture Engagement - Detailed Architecture and Design"/>
+    <field id="2" value="https://w3.webahead.ibm.com/w3ki/pages/viewpage.action?pageId=152973"/>
+    <field id="3" value="Alan Chivers/Uk/IBM"/>
+    <field id="4" value="`Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Reusable Architecture Engagement - Detailed Architecture and Design&quot; - "/>
+  </row>
+  <row id="44">
+    <field id="0" value="SA3"/>
+    <field id="1" value="SOW for Reusable Architecture Engagement - Conceptual Architecture"/>
+    <field id="2" value="https://w3.webahead.ibm.com/w3ki/display/ISSWEngagementModel/Conceptual+Architecture+Services+Generic+Offering"/>
+    <field id="3" value="Alan Chivers/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Reusable Architecture Engagement - Conceptual Architecture&quot; - "/>
+  </row>
+  <row id="45">
+    <field id="0" value="SA4"/>
+    <field id="1" value="Template Deliverable for Reusable Architecture Engagement - Detailed Architecture and Design"/>
+    <field id="2" value="https://w3.webahead.ibm.com/w3ki/pages/viewpage.action?pageId=152973"/>
+    <field id="3" value="Alan Chivers/Uk/IBM"/>
+    <field id="4" value="`Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Reusable Architecture Engagement - Detailed Architecture and Design&quot; - "/>
+  </row>
+  <row id="46">
+    <field id="0" value="SA5"/>
+    <field id="1" value="Template Deliverable for Reusable Architecture Engagement - Conceptual Architecture"/>
+    <field id="2" value="https://w3.webahead.ibm.com/w3ki/display/ISSWEngagementModel/Conceptual+Architecture+Services+Generic+Offering"/>
+    <field id="3" value="Alan Chivers/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Reusable Architecture Engagement - Conceptual Architecture&quot; - "/>
+  </row>
+  <row id="47"/>
+  <row id="48">
+    <field id="0" value=""/>
+    <field id="1" value="W-ESB Assets"/>
+    <field id="2" value="Source"/>
+    <field id="3" value="Owner"/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="49">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+    <field id="5" value="Link"/>
+  </row>
+  <row id="50">
+    <field id="0" value="ES1"/>
+    <field id="1" value="Redbook SG247163 Enabling SOA Using WebSphere Messaging"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg247163.html?Open"/>
+    <field id="3" value="SWG"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="51">
+    <field id="0" value=""/>
+    <field id="1" value="WBI MB Assets"/>
+    <field id="2" value="Source"/>
+    <field id="3" value="Owner"/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="52">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+    <field id="5" value="Link"/>
+  </row>
+  <row id="53">
+    <field id="0" value="WB1"/>
+    <field id="1" value="WBI MB UML Notation"/>
+    <field id="2" value="http://www-1.ibm.com/support/docview.wss?rs=171&amp;uid=swg24006700&amp;loc=en_US&amp;cs=utf-8&amp;lang=en"/>
+    <field id="3" value="SWG"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;WBI MB UML Notation&quot; - "/>
+  </row>
+  <row id="54">
+    <field id="0" value="WB2"/>
+    <field id="1" value="WBI MB Web Services Support"/>
+    <field id="2" value="http://www-1.ibm.com/support/docview.wss?uid=swg27007090&amp;aid=7"/>
+    <field id="3" value="SWG"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="55">
+    <field id="0" value="WB3"/>
+    <field id="1" value="Complex Event Processing"/>
+    <field id="2" value="http://www-1.ibm.com/support/docview.wss?uid=swg27007090&amp;aid=5"/>
+    <field id="3" value="SWG"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="56">
+    <field id="0" value="WB4"/>
+    <field id="1" value="RedPaper: Using Message Sets in WebSphere Business Integration Message Broker to Implement an ESB in an SOA"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/redp3978.html?Open"/>
+    <field id="3" value="Jonathan Adams/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="57">
+    <field id="0" value="WB5"/>
+    <field id="1" value="Redbook SG247163 Enabling SOA Using WebSphere Messaging"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg247163.html?Open"/>
+    <field id="3" value="SWG"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="58">
+    <field id="0" value="WB6"/>
+    <field id="1" value="Redbook SG246773: Patterns: Integrating Enterprise Service Buses in a Service-Oriented Architecture"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg246773.html?Open"/>
+    <field id="3" value="Jonathan Adams/UK/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="59">
+    <field id="0" value="WB7"/>
+    <field id="1" value="Redbook SG246346: Patterns: Implementing an SOA using an Enterprise Service Bus"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg246346.html?Open"/>
+    <field id="3" value="Jonathan Adams/UK/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="60">
+    <field id="0" value=""/>
+    <field id="1" value="WS-Gateway Assets"/>
+    <field id="2" value="Source"/>
+    <field id="3" value="Owner"/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="61">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+    <field id="5" value="Link"/>
+  </row>
+  <row id="62">
+    <field id="0" value="WG1"/>
+    <field id="1" value="Rebook SG247135: Patterns: Extended Enterprise SOA and Web Services"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg247135.html?Open"/>
+    <field id="3" value="Jonathan Adams/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="63">
+    <field id="0" value=""/>
+    <field id="1" value="WebSphere Partner Gateway Assets"/>
+    <field id="2" value="Source"/>
+    <field id="3" value="Owner"/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="64">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+    <field id="5" value="Link"/>
+  </row>
+  <row id="65">
+    <field id="0" value="PG1"/>
+    <field id="1" value="Rebook SG247135: Patterns: Extended Enterprise SOA and Web Services"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg247135.html?Open"/>
+    <field id="3" value="Jonathan Adams/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="66">
+    <field id="0" value=""/>
+    <field id="1" value="SI Bus Assets"/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="67">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+  </row>
+  <row id="68">
+    <field id="0" value="SI1"/>
+    <field id="1" value="Rebook SG247135: Patterns: Extended Enterprise SOA and Web Services"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg247135.html?Open"/>
+    <field id="3" value="Jonathan Adams/Uk/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="69">
+    <field id="0" value="SI2"/>
+    <field id="1" value="Redbook SG246494: Patterns: SOA with an Enterprise Service Bus in WebSphere Application Server V6"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg246494.html?Open"/>
+    <field id="3" value="Jonathan Adams/UK/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="70">
+    <field id="0" value="SI3"/>
+    <field id="1" value="Redbook SG246773: Patterns: Integrating Enterprise Service Buses in a Service-Oriented Architecture"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg246773.html?Open"/>
+    <field id="3" value="Jonathan Adams/UK/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="71">
+    <field id="0" value="SI4"/>
+    <field id="1" value="Redbook SG246346: Patterns: Implementing an SOA using an Enterprise Service Bus"/>
+    <field id="2" value="http://w3.itso.ibm.com/abstracts/sg246346.html?Open"/>
+    <field id="3" value="Jonathan Adams/UK/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="72">
+    <field id="0" value=""/>
+    <field id="1" value="DataPower Assets"/>
+    <field id="2" value="Source"/>
+    <field id="3" value="Owner"/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="73">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+    <field id="5" value="Link"/>
+  </row>
+  <row id="74">
+    <field id="0" value="DP1"/>
+    <field id="1" value="DataPower Overview"/>
+    <field id="2" value="https://ate06db.raleigh.ibm.com/a_dir/AIMICRep.nsf/a3939208687c71a285256bd100600899/9840FB2F275C53118525717A005AF26C?OpenDocument"/>
+    <field id="3" value="Robert Peterson/Austin/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;&lt;IBM Confidential&gt;DataPower Overview&quot; - "/>
+  </row>
+  <row id="75">
+    <field id="0" value=""/>
+    <field id="1" value="Registry and versioning assets"/>
+    <field id="2" value="Source"/>
+    <field id="3" value="Owner"/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="76">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+    <field id="5" value="Link"/>
+  </row>
+  <row id="77">
+    <field id="0" value="RR1"/>
+    <field id="1" value="WSRR Education"/>
+    <field id="2" value="https://ate06db.raleigh.ibm.com/a_dir/AIMICRep.nsf/a3939208687c71a285256bd100600899/950EB8B011FA71A08525717E006261D9?OpenDocument"/>
+    <field id="3" value="Daniel Murphy/UK/IBM"/>
+    <field id="4" value="Draft"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;WebSphere Service Registry and Repository (WSRR) Course Material&quot; - "/>
+  </row>
+  <row id="78">
+    <field id="0" value="RR2"/>
+    <field id="1" value="Web services Versioning"/>
+    <field id="2" value="http://www-128.ibm.com/developerworks/webservices/library/ws-version/"/>
+    <field id="3" value="Kyle Brown/Raleigh/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Web services Versioning&quot; - "/>
+  </row>
+  <row id="79">
+    <field id="0" value="RR3"/>
+    <field id="1" value="Service Versioning"/>
+    <field id="2" value="n/a"/>
+    <field id="3" value="Michael Ellis/Toronto/IBM"/>
+    <field id="4" value="Draft"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Service Versioning&quot; - "/>
+  </row>
+  <row id="80">
+    <field id="0" value="RR4"/>
+    <field id="1" value="Service Registry Introduction"/>
+    <field id="2" value="http://submit.boulder.ibm.com/wsdd/wstc/presentations/A28.ppt"/>
+    <field id="3" value="Barbara McKee/Austin/IBM"/>
+    <field id="4" value="Draft"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Service Registry Introduction&quot; - "/>
+  </row>
+  <row id="81">
+    <field id="0" value=""/>
+    <field id="1" value="Web Services Assets"/>
+    <field id="2" value="Source"/>
+    <field id="3" value="Owner"/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="82">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+    <field id="5" value="Link"/>
+  </row>
+  <row id="83">
+    <field id="0" value="WS1"/>
+    <field id="1" value="SOA and Web services Best Practises"/>
+    <field id="2" value="https://ate06db.raleigh.ibm.com/a_dir/AIMICRep.nsf/a3939208687c71a285256bd100600899/1B8A7DECA606F7178525710A007B61CE?OpenDocument"/>
+    <field id="3" value="Warren Fung/Toronto/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;SOA and Web services Best Practises&quot; - "/>
+  </row>
+  <row id="84">
+    <field id="0" value=""/>
+    <field id="1" value="Security Assets"/>
+    <field id="2" value="Source"/>
+    <field id="3" value="Owner"/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="85">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+    <field id="5" value="Link"/>
+  </row>
+  <row id="86">
+    <field id="0" value="SE1"/>
+    <field id="1" value="XML Security Threats"/>
+    <field id="2" value="http://www-128.ibm.com/developerworks/websphere/techjournal/0603_col_hines/0603_col_hines.html"/>
+    <field id="3" value="Bill Hines/Mechanicsburg/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="http://www-128.ibm.com/developerworks/websphere/techjournal/0603_col_hines/0603_col_hines.html"/>
+  </row>
+  <row id="87">
+    <field id="0" value="SE2"/>
+    <field id="1" value="Web services Security with WebSphere Application Server parts 1-4"/>
+    <field id="2" value="http://www-128.ibm.com/developerworks/websphere/techjournal/0603_cowan/0603_cowan.html"/>
+  </row>
+  <row id="88">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value="http://www-128.ibm.com/developerworks/websphere/techjournal/0604_singh/0604_singh.html"/>
+  </row>
+  <row id="89">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value="http://www-128.ibm.com/developerworks/websphere/techjournal/0606_singh/0606_singh.html"/>
+  </row>
+  <row id="90">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value="http://ltsbwass001.sby.ibm.com/cms/developerworks/websphere/techjournal/0607_desprets/0607_desprets.html"/>
+  </row>
+  <row id="91">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value="Various"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="n/a"/>
+  </row>
+  <row id="92">
+    <field id="0" value="SE3"/>
+    <field id="1" value="SOA Security"/>
+    <field id="2" value="http://submit.boulder.ibm.com/wsdd/wstc/presentations/A41.ppt"/>
+    <field id="3" value="Maryann Hondo/Austin/IBM "/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;SOA Security&quot; - "/>
+  </row>
+  <row id="93">
+    <field id="0" value="SE4"/>
+    <field id="1" value="Web services Security Architectures"/>
+    <field id="2" value="http://submit.boulder.ibm.com/wsdd/wstc/presentations/A32.ppt"/>
+    <field id="3" value="Tony Cowan/Pittsburgh/IBM, Yaroslav Dunchych/Toronto/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;Web services Security Architectures&quot; - "/>
+  </row>
+  <row id="94">
+    <field id="0" value=""/>
+    <field id="1" value="Systems Management Assets"/>
+    <field id="2" value="Source"/>
+    <field id="3" value="Owner"/>
+    <field id="4" value="Status"/>
+  </row>
+  <row id="95">
+    <field id="0" value=""/>
+    <field id="1" value=""/>
+    <field id="2" value=""/>
+    <field id="3" value=""/>
+    <field id="4" value="(Example, Draft, Complete, Integrated)"/>
+    <field id="5" value="Link"/>
+  </row>
+  <row id="96">
+    <field id="0" value="SM1"/>
+    <field id="1" value="SOA Management presentation"/>
+    <field id="2" value="http://submit.boulder.ibm.com/wsdd/wstc/presentations/A04.ppt"/>
+    <field id="3" value="Rosalind Radcliffe/Raleigh/IBM"/>
+    <field id="4" value="Complete"/>
+    <field id="5" value="&quot;Candidate Assets&quot; - &quot;SOA Management&quot; - "/>
+  </row>
+  <row id="97"/>
+</root>

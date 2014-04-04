@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><pbe.header editor="platform:/resource/.PVTools7/patterns/AddPluginAction.pbeDialog" pattern="com.ibm.pbe.patterns.plugin.jet">
+<patternAction action="newAction" folder="" id="com.ibm.pbe.plugin.actions.MyNewAction" label="Run &amp;MyNewPlugin" name="MyNewAction" outProject="TDPatterns" path="com/ibm/pbe/tdpatterns/actions" pkg="com.ibm.pbe.tdpatterns.actions"/>
+</pbe.header>
