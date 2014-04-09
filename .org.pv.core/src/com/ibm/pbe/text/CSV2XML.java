@@ -78,7 +78,7 @@ public class CSV2XML  {
 			// TODO Auto-generated catch block
 			e1.printStackTrace(utils.getLogger());
 		}
-		utils.save(d,utils.getFile(utils.changeExtension(utils.path2URI(source.getFullPath()),"xml")));
+		utils.save(d,utils.changeExtension(source,"xml"));
 	}
 		
 	static String copyright() { return Copyright.PV_COPYRIGHT; }

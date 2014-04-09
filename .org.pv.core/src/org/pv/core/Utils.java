@@ -34,6 +34,7 @@ import java.io.StringReader;
 import java.io.StringWriter;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.net.URI;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -56,6 +57,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Source;
 import javax.xml.transform.Transformer;
+
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
@@ -72,6 +74,12 @@ import javax.xml.transform.stream.StreamResult;
 
 
 
+
+
+
+
+import org.eclipse.core.filesystem.EFS;
+import org.eclipse.core.filesystem.IFileStore;
 import org.eclipse.core.resources.IContainer;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IFolder;
@@ -102,8 +110,8 @@ import org.eclipse.core.runtime.preferences.IPreferencesService;
 import org.eclipse.debug.core.DebugPlugin;
 import org.eclipse.debug.core.ILaunchConfiguration;
 import org.eclipse.debug.core.ILaunchManager;
-import org.eclipse.emf.common.util.URI;
-import org.eclipse.emf.ecore.EObject;
+//import org.eclipse.emf.common.util.URI;
+//import org.eclipse.emf.ecore.EObject;
 //import org.eclipse.emf.common.util.BasicEList;
 //import org.eclipse.emf.common.util.EList;
 //import org.eclipse.emf.common.util.URI;
@@ -153,6 +161,7 @@ import org.eclipse.ui.console.IOConsoleInputStream;
 import org.eclipse.ui.console.IOConsoleOutputStream;
 import org.eclipse.ui.console.MessageConsole;
 import org.eclipse.ui.console.MessageConsoleStream;
+import org.eclipse.ui.ide.FileStoreEditorInput;
 import org.eclipse.ui.part.FileEditorInput;
 
 //import org.eclipse.uml2.uml.Class;
@@ -182,6 +191,10 @@ import org.w3c.dom.NodeList;
 
 
 
+
+
+
+
 //import com.ibm.dptk.patternWizard.PatternApplicationStatus;
 //import com.ibm.dptk.patternWizard.PatternApplicator;
 //! UML
@@ -195,7 +208,7 @@ import org.w3c.dom.NodeList;
 //import com.ibm.issw.transforms.Profile2ModelApplier;
 //! UML
 //import com.ibm.dptk.patternWizard.PatternApplicationStatus;
-import com.ibm.pbe.patterns.PatternApplicator;
+//import com.ibm.pbe.patterns.PatternApplicator;
 import com.ibm.pbe.text.XMLResolver;
 import com.ibm.pbe.transforms.XML2DOMTransform;
 //import com.ibm.pbe.trees.FileFinder;
@@ -244,7 +257,7 @@ public class Utils {
 //	public static FileFinder fileFinder;
 	
 	private static Utils me;
-	private static PatternApplicator patRunner=new PatternApplicator();
+//	private static PatternApplicator patRunner=new PatternApplicator();
 	
 	
 	public final static String JAVA_PERSPECTIVE="org.eclipse.jdt.ui.JavaPerspective";
@@ -396,16 +409,19 @@ public class Utils {
 		IPath path=f.getFullPath().removeFileExtension().addFileExtension(newext);
 		return wsr.getFile(path);
 	}
-	public IFile getFile(String absolutePath) {
-		return wsr.getFile(new Path(absolutePath));
+	public IFile getFile(String workspacePath) {
+		return wsr.getFile(new Path(workspacePath));
+	}
+	public IFileStore getFileStore(String fileSystemPath) {
+		return EFS.getLocalFileSystem().getStore(new File(fileSystemPath).toURI());
 	}
 //	public IFile findFile(IContainer f, String targetName ) {
 //		if (fileFinder==null) {fileFinder=new FileFinder();}
 //		return fileFinder.find(f,targetName);
 //	}
-	public IFile getFile(URI uri) {
-		return wsr.getFile(URI2Path(uri));
-	}
+//	public IFile getFile(URI uri) {
+//		return wsr.getFile(URI2Path(uri));
+//	}
 	public IFile save(String s,IFile f){
 			return save(new ByteArrayInputStream(s.getBytes()),f);
 	}
@@ -461,22 +477,22 @@ public class Utils {
 	public IFile save(Document doc,IPath fullPath){
 		return save(doc2InputStream(doc),wsr.getFile(fullPath));
 	}
-	public Document getDoc(URI uri) {
-		IPath path=new Path(uri.path());
-		String scheme=uri.scheme();
-		if ("platform".equals(scheme)) {
-			if ("plugin".equals(path.segment(0))) {
-				return getDoc(path.segment(1), path.removeFirstSegments(2).toString());
-			}
-			if ("resource".equals(path.segment(0))) {
-				return getDoc(getFile(path.removeFirstSegments(1)));
-			}
-		}
-		else if (uri.isFile()) {
-			return getDocExternal(uri.devicePath());
-		}
-		return null;
-	}
+//	public Document getDoc(URI uri) {
+//		IPath path=new Path(uri.path());
+//		String scheme=uri.scheme();
+//		if ("platform".equals(scheme)) {
+//			if ("plugin".equals(path.segment(0))) {
+//				return getDoc(path.segment(1), path.removeFirstSegments(2).toString());
+//			}
+//			if ("resource".equals(path.segment(0))) {
+//				return getDoc(getFile(path.removeFirstSegments(1)));
+//			}
+//		}
+//		else if (uri.isFile()) {
+//			return getDocExternal(uri.devicePath());
+//		}
+//		return null;
+//	}
 	
 	public Document getDocExternal(String path) {
 		Document doc=null;
@@ -743,69 +759,69 @@ public class Utils {
 		return p.removeFileExtension().lastSegment();
 	}
 	
-	public URI getURI(EObject eo) {
-		URI uri=eo.eResource().getURI();
-		return uri;
-		}
-	
-	public URI getURI(IResource eo) {
-		URI uri=path2URI(eo.getFullPath());
-		return uri;
-		}
-	
-	public IPath getPath(EObject eo) {
-	if ((eo==null)||(eo.eResource()==null)) {return null;}	
-	URI uri=eo.eResource().getURI();
-	IPath p=(new Path(URI.decode(uri.path()))).removeFirstSegments(1);
-	return p;
-	}
-		
-	public String getProjectName(EObject eo) {
-		URI uri=eo.eResource().getURI();
-		IPath p=(new Path(uri.path())).removeFirstSegments(1);
-		return p.segment(0);
-	}
-	
-	public IProject getProject(EObject eo) {
-		 return wsr.getProject(getProjectName(eo));
-	}
-	
-	public URI getFolder(EObject eo) {
-		URI uri=eo.eResource().getURI();
-		IPath p=(new Path(uri.path())).removeFirstSegments(1);
-		return uri.trimSegments(1);
-	}
+//	public URI getURI(EObject eo) {
+//		URI uri=eo.eResource().getURI();
+//		return uri;
+//		}
+//	
+//	public URI getURI(IResource eo) {
+//		URI uri=path2URI(eo.getFullPath());
+//		return uri;
+//		}
+//	
+//	public IPath getPath(EObject eo) {
+//	if ((eo==null)||(eo.eResource()==null)) {return null;}	
+//	URI uri=eo.eResource().getURI();
+//	IPath p=(new Path(URI.decode(uri.path()))).removeFirstSegments(1);
+//	return p;
+//	}
+//		
+//	public String getProjectName(EObject eo) {
+//		URI uri=eo.eResource().getURI();
+//		IPath p=(new Path(uri.path())).removeFirstSegments(1);
+//		return p.segment(0);
+//	}
+//	
+//	public IProject getProject(EObject eo) {
+//		 return wsr.getProject(getProjectName(eo));
+//	}
+//	
+//	public URI getFolder(EObject eo) {
+//		URI uri=eo.eResource().getURI();
+//		IPath p=(new Path(uri.path())).removeFirstSegments(1);
+//		return uri.trimSegments(1);
+//	}
 	
 	public IPath string2Path(String s) {
 		return root.append(s);
 	}
-	public URI path2URI(IPath p) {
-		return string2URI(p.toString());
-	}
-	public IPath URI2Path(URI uri) {
-		return new Path(uri.path()).removeFirstSegments(1);
-	}
-	public URI string2URI(String s){
-		URI uri=null;
-		if (s==null) {return null;}
-//		return uri=URI.createURI(profilePath);
-		uri=URI.createURI(s);
-		String scheme=uri.scheme();
-		if (scheme==null) {uri=URI.createPlatformResourceURI(s);}
-		else if (scheme.length()==1) {uri=URI.createFileURI(s);}
-		return uri;
-	}
-
-	public URI changeExtension(URI uri,String ext) {
-		return uri.trimFileExtension().appendFileExtension(ext);
-	}
-	public URI changeFile(URI uri,String newName_Ext) {
-		return uri.trimSegments(1).appendSegment(newName_Ext);
-	}
-	public URI changeFileName(URI uri,String newName) {
-		String ext=uri.fileExtension();
-		return uri.trimSegments(1).appendSegment(newName).appendFileExtension(ext);
-	}
+//	public URI path2URI(IPath p) {
+//		return string2URI(p.toString());
+//	}
+//	public IPath URI2Path(URI uri) {
+//		return new Path(uri.path()).removeFirstSegments(1);
+//	}
+//	public URI string2URI(String s){
+//		URI uri=null;
+//		if (s==null) {return null;}
+////		return uri=URI.createURI(profilePath);
+//		uri=URI.createURI(s);
+//		String scheme=uri.scheme();
+//		if (scheme==null) {uri=URI.createPlatformResourceURI(s);}
+//		else if (scheme.length()==1) {uri=URI.createFileURI(s);}
+//		return uri;
+//	}
+//
+//	public URI changeExtension(URI uri,String ext) {
+//		return uri.trimFileExtension().appendFileExtension(ext);
+//	}
+//	public URI changeFile(URI uri,String newName_Ext) {
+//		return uri.trimSegments(1).appendSegment(newName_Ext);
+//	}
+//	public URI changeFileName(URI uri,String newName) {
+//		String ext=uri.fileExtension();
+//		return uri.trimSegments(1).appendSegment(newName).appendFileExtension(ext);
+//	}
 	public IFile changeFileName(IFile f, String newName) {
 		String ext=f.getFileExtension();
 		return wsr.getFile(f.getFullPath().removeLastSegments(1).append(newName).addFileExtension(ext));
@@ -848,6 +864,20 @@ public class Utils {
 		} catch (PartInitException e) {
 			e.printStackTrace(getLogger());
 		}
+	}
+	public void editExternal(IFileStore f) {
+		if (f==null) {log("Error - null file passed for editing - ignored");return;}
+		String edId=wb.getEditorRegistry().SYSTEM_EXTERNAL_EDITOR_ID; // pass to external system to choose
+		p(edId);
+		IWorkbenchPage wp=PlatformUI.getWorkbench().getActiveWorkbenchWindow().getActivePage();
+		try {
+			wp.openEditor(new FileStoreEditorInput(f),edId);
+		} catch (PartInitException e) {
+			e.printStackTrace(getLogger());
+		}
+	}
+	public void editExternal(String fileSystemPath) {
+		editExternal(getFileStore(fileSystemPath));
 	}
 	public void dumpEditors() { // outdated??? 
 		IFileEditorMapping[] fems = wb.getEditorRegistry().getFileEditorMappings();
@@ -1692,9 +1722,9 @@ public class Utils {
 	}
 
 	/********************* Dummy UML functions ***************/		
-	public EObject getSelectedUMLElement() {
-		return null;
-	}
+//	public EObject getSelectedUMLElement() {
+//		return null;
+//	}
 	
 /********************* UML functions ***************/	
 //	public IFile getFileFor(EObject eo) {
@@ -2103,11 +2133,11 @@ public class Utils {
 //		return JET2Platform.runTransformOnObject(patternId, root.getOwnerDocument(), new NullProgressMonitor());
 		return null;
 	}
-	public IStatus runJet(org.w3c.dom.Element root) {
-		patRunner.generate(root);
-		return Status.OK_STATUS;
-//		return JET2Platform.runTransformOnObject(patternId, root.getOwnerDocument(), new NullProgressMonitor());
-	}
+//	public IStatus runJet(org.w3c.dom.Element root) {
+//		patRunner.generate(root);
+//		return Status.OK_STATUS;
+////		return JET2Platform.runTransformOnObject(patternId, root.getOwnerDocument(), new NullProgressMonitor());
+//	}
 	
 	
 	public String getCallingMethod() {
